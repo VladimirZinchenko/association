@@ -1,0 +1,22 @@
+uuid: 3c354bb2-75c8-4c16-be83-0ea3bbd9681b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: Tpwe9_pQnWOF8OaQvPIWN7SPzAH9NPZU22ClY7Pb0Es
+id: b5aaevr_breadcrumbs
+theme: b5aaevr
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 7f3a23e8-b3b7-4728-ac04-186d89e7cb47
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: R-RqLwGK2sobV8WHvBShwkCK_a3xnv2ApSZdaTnWdEk
+id: b5aaevr_messages
+theme: b5aaevr
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

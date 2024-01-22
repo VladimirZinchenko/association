@@ -1,0 +1,27 @@
+uuid: 6d893bf1-2492-4123-8be7-606bee0f7c4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: vpGjA-Y6st2EJrrrd3VqulJNde3ym9G1QfzvLDmZWws
+id: b5aaevr_account_menu
+theme: b5aaevr
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

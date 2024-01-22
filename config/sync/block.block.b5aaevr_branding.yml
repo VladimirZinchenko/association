@@ -1,0 +1,25 @@
+uuid: 48427ccc-c39a-42e4-9978-c729cb762fe3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: VkuvcR6-OYnQ4JqI1JKaKPZOh5Yghxv9y4L0Ko1571M
+id: b5aaevr_branding
+theme: b5aaevr
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

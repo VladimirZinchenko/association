@@ -1,0 +1,12 @@
+uuid: e046d187-d465-4051-a4b4-a0e36d9e7aaf
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+id: user
+label: Користувач
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  title: '[user:display-name] | [site:name]'

@@ -1,0 +1,22 @@
+uuid: 947f0af9-4b75-4902-bfc0-b4d93a9e0045
+langcode: en
+status: true
+dependencies:
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: RxCBH6RMkzUJFa139ejvoOVLgBSekumudJ3Lm-F6TcA
+id: b5aaevr_local_tasks
+theme: b5aaevr
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

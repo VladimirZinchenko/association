@@ -1,0 +1,20 @@
+uuid: 2bdd02b9-3c62-44c1-a0d2-a3cadd16aae3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: zNtIuzqd2DjnI3SP6aRxNX1sCNDVCqrK32NQlGy_a78
+id: b5aaevr_page_title
+theme: b5aaevr
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

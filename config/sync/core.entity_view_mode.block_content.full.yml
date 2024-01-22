@@ -1,0 +1,13 @@
+uuid: 140feb71-4dc6-4604-b2fd-f9aa63ef2823
+langcode: uk
+status: false
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: Q7yUUYeRLByl-MCGveKKF_KhAtNICLCMJuKWfugCvso
+id: block_content.full
+label: Повністю
+description: ''
+targetEntityType: block_content
+cache: true

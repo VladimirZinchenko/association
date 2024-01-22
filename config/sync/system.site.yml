@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: uk
+uuid: 7bc58ea7-f1d7-4361-a718-a877451ff339
+name: aaevr
+mail: acoustic@alligat.com.ua
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: uk

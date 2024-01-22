@@ -1,0 +1,22 @@
+uuid: c84c795c-69e7-4614-b8c0-6c9ec06f9fdf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: Ki8CCd9GDw-D_-n7v1rpksoAQm2LVAhjm_VA8kHHf70
+id: b5aaevr_content
+theme: b5aaevr
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

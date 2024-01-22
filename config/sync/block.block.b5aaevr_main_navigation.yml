@@ -1,0 +1,27 @@
+uuid: 709bdf23-5d75-40c0-ad35-1e03a6d036de
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: GeaF2j3u3OFmEzhuJVP6hsBFnnjaPi4PUqwc9jTP0bI
+id: b5aaevr_main_navigation
+theme: b5aaevr
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

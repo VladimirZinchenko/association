@@ -1,0 +1,22 @@
+uuid: 69c61f9e-871b-4841-827e-0fafce9aaf4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - b5aaevr
+_core:
+  default_config_hash: GfFdPFY6mBmJAEVUD-dqzGV8bok6tLzKoqS3vyChPY4
+id: b5aaevr_help
+theme: b5aaevr
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
