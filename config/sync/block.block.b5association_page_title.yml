@@ -1,13 +1,13 @@
-uuid: 2bdd02b9-3c62-44c1-a0d2-a3cadd16aae3
+uuid: e757e39c-6e5b-4289-9770-ac7e2ba339cc
 langcode: en
 status: true
 dependencies:
   theme:
-    - b5aaevr
+    - b5association
 _core:
-  default_config_hash: zNtIuzqd2DjnI3SP6aRxNX1sCNDVCqrK32NQlGy_a78
-id: b5aaevr_page_title
-theme: b5aaevr
+  default_config_hash: TQf0BQesTZ7XiWL9zMkTV5v8kLty6IQEtjPmPTk5K6U
+id: b5association_page_title
+theme: b5association
 region: content
 weight: -6
 provider: null

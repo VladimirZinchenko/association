@@ -1,15 +1,15 @@
-uuid: 3c354bb2-75c8-4c16-be83-0ea3bbd9681b
+uuid: 0c288818-8828-4315-b23f-4d1e0317c103
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - b5aaevr
+    - b5association
 _core:
-  default_config_hash: Tpwe9_pQnWOF8OaQvPIWN7SPzAH9NPZU22ClY7Pb0Es
-id: b5aaevr_breadcrumbs
-theme: b5aaevr
+  default_config_hash: 6C8kefNWw7RcSv2raLul3JbwAgl0jYqF9THIi4WCmYo
+id: b5association_breadcrumbs
+theme: b5association
 region: breadcrumb
 weight: 0
 provider: null

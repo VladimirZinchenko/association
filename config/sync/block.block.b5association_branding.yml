@@ -1,15 +1,15 @@
-uuid: 48427ccc-c39a-42e4-9978-c729cb762fe3
+uuid: 5de78227-de2f-480d-a10e-fb816eb852a7
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - b5aaevr
+    - b5association
 _core:
-  default_config_hash: VkuvcR6-OYnQ4JqI1JKaKPZOh5Yghxv9y4L0Ko1571M
-id: b5aaevr_branding
-theme: b5aaevr
+  default_config_hash: P5ouXIJuOtTkDvvHBHIFD_4IHfJf1bsdegsfEVc8GoU
+id: b5association_branding
+theme: b5association
 region: nav_branding
 weight: -6
 provider: null

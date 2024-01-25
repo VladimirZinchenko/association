@@ -1,4 +1,4 @@
-uuid: 0fb0c3b9-720d-44e2-a062-93a93163bb75
+uuid: b70d6790-7ada-4939-bdc0-958ee7eae70c
 langcode: en
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
+    - b5association
 _core:
-  default_config_hash: 3TlVprnB3B1UFOdyr-OG77yy9OZftvvGS2EsJuJhRT0
-id: b5aaevr_footer
-theme: b5aaevr
+  default_config_hash: af1ol3XhOnbETltRhOdzrKtFJHdBO3eQHbKa8Yqav6I
+id: b5association_footer
+theme: b5association
 region: footer
 weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Footer
+  label: 'Нижній колонтитул'
   label_display: '0'
   provider: system
   level: 1
