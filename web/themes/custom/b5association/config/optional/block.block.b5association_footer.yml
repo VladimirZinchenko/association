@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_footer
-theme: b5aaevr
+    - b5association
+id: b5association_footer
+theme: b5association
 region: footer
 weight: -6
 provider: null

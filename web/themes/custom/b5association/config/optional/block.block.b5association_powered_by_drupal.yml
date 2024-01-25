@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_powered_by_drupal
-theme: b5aaevr
+    - b5association
+id: b5association_powered_by_drupal
+theme: b5association
 region: footer
 weight: 0
 provider: null

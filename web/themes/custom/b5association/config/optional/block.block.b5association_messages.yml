@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_messages
-theme: b5aaevr
+    - b5association
+id: b5association_messages
+theme: b5association
 region: content
 weight: -7
 provider: null

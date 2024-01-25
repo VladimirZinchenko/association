@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_breadcrumbs
-theme: b5aaevr
+    - b5association
+id: b5association_breadcrumbs
+theme: b5association
 region: breadcrumb
 weight: 0
 provider: null

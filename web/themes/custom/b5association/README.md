@@ -1,4 +1,4 @@
-# B5 aaevr theme
+# B5 association theme
 
 [Bootstrap 5](https://www.drupal.org/project/bootstrap5) subtheme.
 

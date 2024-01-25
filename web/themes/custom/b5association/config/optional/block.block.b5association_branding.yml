@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_branding
-theme: b5aaevr
+    - b5association
+id: b5association_branding
+theme: b5association
 region: nav_branding
 weight: -6
 provider: null

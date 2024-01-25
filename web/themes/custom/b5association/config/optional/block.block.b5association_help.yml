@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - b5aaevr
-id: b5aaevr_help
-theme: b5aaevr
+    - b5association
+id: b5association_help
+theme: b5association
 region: content
 weight: -3
 provider: null

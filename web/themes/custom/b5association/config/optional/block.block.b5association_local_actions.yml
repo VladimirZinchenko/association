@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - b5aaevr
-id: b5aaevr_local_actions
-theme: b5aaevr
+    - b5association
+id: b5association_local_actions
+theme: b5association
 region: content
 weight: -2
 provider: null

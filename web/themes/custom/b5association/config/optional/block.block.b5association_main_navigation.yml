@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - b5aaevr
-id: b5aaevr_main_navigation
-theme: b5aaevr
+    - b5association
+id: b5association_main_navigation
+theme: b5association
 region: nav_main
 weight: 0
 provider: null

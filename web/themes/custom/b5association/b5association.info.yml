@@ -1,10 +1,10 @@
-name: 'B5 aaevr'
+name: 'B5 association'
 type: theme
-description: 'B5 aaevr subtheme based on Bootstrap 5 theme.'
+description: 'B5 association subtheme based on Bootstrap 5 theme.'
 core_version_requirement: '^9.4 || ^10'
 'base theme': bootstrap5
 libraries:
-  - b5aaevr/global-styling
+  - b5association/global-styling
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:
