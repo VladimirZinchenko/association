@@ -1,0 +1,8 @@
+uuid: 0c87f97d-24cc-4607-9095-2aadca391e73
+langcode: en
+status: true
+dependencies: {  }
+name: Section
+vid: section
+description: 'Legal documentation section'
+weight: 0

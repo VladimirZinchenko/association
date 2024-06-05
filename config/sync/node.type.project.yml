@@ -1,0 +1,18 @@
+uuid: 1185d12d-f88c-4152-aab5-0814e63d430d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Project
+type: project
+description: "<em>Association's</em> project"
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

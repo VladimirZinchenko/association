@@ -1,0 +1,22 @@
+uuid: 9f0ad38f-0f4d-4cfa-a891-55264f76332c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: event
+label: Event
+type: 'canonical_entities:node'
+pattern: '[node:field_project]/[node:title]'
+selection_criteria:
+  e5125e44-f40c-433f-b1bd-ee91571b1d02:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e5125e44-f40c-433f-b1bd-ee91571b1d02
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: -5
+relationships: {  }

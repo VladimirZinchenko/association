@@ -1,14 +1,14 @@
-uuid: 4ef2ac30-8553-42e4-965e-e2b4065da833
-langcode: uk
+uuid: 2cbc4784-fa31-43e8-b88f-346ee76d286c
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
 id: feedback
-label: "Зворотний зв'язок вебсайту"
+label: 'Website feedback'
 recipients:
-  - acousticalligat@gmail.com
+  - admin@example.com
 reply: ''
 weight: 0
-message: 'Ваше повідомлення було відправлене.'
+message: 'Your message has been sent.'
 redirect: ''

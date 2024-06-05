@@ -1,4 +1,4 @@
-uuid: 1f2d75c5-fea1-4377-ab95-785747fef07e
+uuid: 256903ac-676f-4b0c-a732-80c89fe6e8de
 langcode: uk
 status: true
 dependencies:
@@ -34,11 +34,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  preview:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   subject:
     type: string_textfield
     weight: 2
@@ -49,3 +44,4 @@ content:
     third_party_settings: {  }
 hidden:
   copy: true
+  preview: true

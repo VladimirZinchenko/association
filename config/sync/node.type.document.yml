@@ -1,0 +1,18 @@
+uuid: a6baceda-13c6-487a-b59b-b35714c75a62
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Document
+type: document
+description: "<em>Association's</em> document"
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

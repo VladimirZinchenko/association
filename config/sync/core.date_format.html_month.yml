@@ -1,10 +1,10 @@
-uuid: 1ba3da98-ca54-4003-b14b-7f41b0ab2370
-langcode: uk
+uuid: 7c8120c4-2bb7-43f1-a03a-70a89af0b097
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
 id: html_month
-label: 'Місяць HTML'
+label: 'HTML Month'
 locked: true
 pattern: Y-m

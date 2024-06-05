@@ -1,5 +1,5 @@
-uuid: 62630051-1c48-4dad-a98b-ca790b2e7a29
-langcode: uk
+uuid: f112ae1f-9d40-4d6e-adca-fdd2a1aab475
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
 id: node_promote_action
-label: 'Винести матеріал на головну сторінку'
+label: 'Promote content to front page'
 type: node
 plugin: node_promote_action
 configuration: {  }

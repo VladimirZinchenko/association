@@ -1,5 +1,5 @@
-uuid: be2eb8e8-2f9f-4f9f-9d25-003a1a1811e8
-langcode: uk
+uuid: 77f42bbf-5554-41c6-977d-d91064a920ab
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
 id: user_cancel_user_action
-label: 'Скасувати облікові записи вибраних користувачів'
+label: 'Cancel the selected user account(s)'
 type: user
 plugin: user_cancel_user_action
 configuration: {  }

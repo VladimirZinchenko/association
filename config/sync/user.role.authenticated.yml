@@ -1,5 +1,5 @@
-uuid: db4a8c12-a2d4-49ee-92d7-1a9dacc5ac98
-langcode: uk
+uuid: 2689cbf9-11dc-4d18-8a83-ab78d6698986
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,7 +9,6 @@ dependencies:
     - contact
     - file
     - filter
-    - search
     - shortcut
     - system
 _core:
@@ -25,6 +24,5 @@ permissions:
   - 'access site-wide contact form'
   - 'delete own files'
   - 'post comments'
-  - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'

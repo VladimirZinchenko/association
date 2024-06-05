@@ -1,0 +1,21 @@
+// Custom theme styling.
+
+footer.site-footer {
+	h3 {
+		font-size: $h6-font-size;
+	}
+}
+
+.region-footer-top,
+.region-footer-bottom,
+.region-breadcrumb {
+	padding: $region-padding;
+}
+
+footer .region-footer {
+	@include media-breakpoint-up(md) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

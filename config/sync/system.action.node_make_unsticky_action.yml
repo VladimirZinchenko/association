@@ -1,5 +1,5 @@
-uuid: 76275186-e530-4bfc-8f5c-06dd426869a7
-langcode: uk
+uuid: 255c7078-96a0-4ac2-ace0-4366f18eaa38
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
 id: node_make_unsticky_action
-label: 'Відкріпити матеріал'
+label: 'Make content unsticky'
 type: node
 plugin: node_make_unsticky_action
 configuration: {  }

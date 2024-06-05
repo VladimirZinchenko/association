@@ -1,5 +1,5 @@
-uuid: 5fbcb5c6-d9c4-49c7-9129-33710aa41900
-langcode: uk
+uuid: 9c6978e7-959a-4fa0-a43e-35299b41742f
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Вміст
+label: Body
 description: ''
 required: false
 translatable: true

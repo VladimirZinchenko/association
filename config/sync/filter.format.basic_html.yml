@@ -1,14 +1,14 @@
-uuid: 146d19e4-dbfe-4d46-90b1-c9fd839faf3e
-langcode: uk
+uuid: 12410f71-a169-4c40-9802-dd0830398233
+langcode: en
 status: true
 dependencies:
   module:
     - editor
 _core:
   default_config_hash: mclCbTlJwWJORez4Y1eX2MqA0aGjSMAoJb3TaBABcK8
-name: 'Простий HTML'
+name: 'Basic HTML'
 format: basic_html
-weight: 0
+weight: -9
 filters:
   editor_file_reference:
     id: editor_file_reference

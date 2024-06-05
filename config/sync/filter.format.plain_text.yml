@@ -1,12 +1,12 @@
-uuid: 15b3d773-f3f6-4e4f-aeb3-6a50e4255828
-langcode: uk
+uuid: 56972f17-9ebe-4f1f-936d-66c166e5f406
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
-name: 'Простий текст'
+name: 'Plain text'
 format: plain_text
-weight: 10
+weight: -7
 filters:
   filter_autop:
     id: filter_autop

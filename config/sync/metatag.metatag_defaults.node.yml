@@ -1,11 +1,11 @@
-uuid: fbcadb78-0430-4ea5-9e12-98fb0fc0fe67
-langcode: uk
+uuid: 88e2b2f0-a908-4458-b40d-deba9e2f2bfd
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
 id: node
-label: Вміст
+label: Content
 tags:
   title: '[node:title] | [site:name]'
   description: '[node:summary]'

@@ -1,0 +1,28 @@
+uuid: 3beec469-017d-4da3-8078-f7e36839e98f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.document
+  module:
+    - text
+id: node.document.body
+field_name: body
+entity_type: node
+bundle: document
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '<p>Arcu ac tortor dignissim convallis. Eget dolor morbi non arcu risus quis. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Massa vitae tortor condimentum lacinia quis vel eros. Quis risus sed vulputate odio ut. Dapibus ultrices in iaculis nunc sed augue lacus. Tortor at auctor urna nunc id cursus. Feugiat in fermentum posuere urna nec tincidunt.</p><p>Tincidunt dui ut ornare lectus sit amet est placerat. Massa ultricies mi quis hendrerit dolor. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Pellentesque diam volutpat commodo sed egestas egestas. At auctor urna nunc id cursus metus aliquam eleifend mi. Mus mauris vitae ultricies leo. Sit amet commodo nulla facilisi nullam vehicula ipsum. Vel facilisis volutpat est velit. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.</p><p>Senectus et netus et malesuada fames ac. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Egestas erat imperdiet sed euismod nisi. Egestas integer eget aliquet nibh. Et leo duis ut diam quam nulla. Elit at imperdiet dui accumsan sit amet. Non arcu risus quis varius quam quisque id. Hac habitasse platea dictumst quisque. Amet risus nullam eget felis. Ut consequat semper viverra nam libero justo laoreet sit. Vel pharetra vel turpis nunc eget lorem. Nec nam aliquam sem et.</p><p>Amet purus gravida quis blandit. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Rhoncus dolor purus non enim. Rhoncus mattis rhoncus urna neque. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Ultricies leo integer malesuada nunc vel. Faucibus ornare suspendisse sed nisi. In eu mi bibendum neque egestas congue. Id aliquet lectus proin nibh nisl condimentum. Imperdiet dui accumsan sit amet nulla facilisi morbi. Facilisis sed odio morbi quis commodo odio aenean.</p><p>Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Vitae justo eget magna fermentum iaculis. Tellus cras adipiscing enim eu turpis egestas pretium. Ac odio tempor orci dapibus ultrices in.</p>'
+    summary: ''
+    format: full_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

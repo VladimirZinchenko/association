@@ -1,4 +1,4 @@
-uuid: 7e48f9b8-dad9-45a4-8dbf-03ffdbb2bcce
+uuid: 510ffcd8-02c9-4b7c-9610-4fee24444f06
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: Messages
+  label: Повідомлення
   label_display: '0'
   provider: system
 visibility: {  }

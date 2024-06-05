@@ -1,5 +1,5 @@
-uuid: e1365735-ca57-45b8-8823-815cffda6739
-langcode: uk
+uuid: cf4993e0-94a4-4f0b-8e7c-8b34fc80466d
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
 id: node_save_action
-label: 'Зберегти матеріал'
+label: 'Save content'
 type: node
 plugin: 'entity:save_action:node'
 configuration: {  }

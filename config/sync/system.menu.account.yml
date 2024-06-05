@@ -1,10 +1,10 @@
-uuid: 10ebfe4e-1d7b-40b3-bbd7-774f2ed91ea9
-langcode: uk
+uuid: 799bd3fc-323e-42c1-a869-eeb28e62d0b3
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
 id: account
-label: 'Меню облікового запису користувача'
-description: 'Посилання, пов’язані з активним обліковим записом'
+label: 'User account menu'
+description: 'Links related to the active user account'
 locked: true

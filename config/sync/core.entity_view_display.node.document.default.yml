@@ -1,0 +1,38 @@
+uuid: 361971aa-1c0c-409e-93a5-9a25719a02d9
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.document.body
+    - field.field.node.document.field_section
+    - node.type.document
+  module:
+    - text
+    - user
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_section:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

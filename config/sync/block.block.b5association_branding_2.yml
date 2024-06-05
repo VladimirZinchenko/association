@@ -1,0 +1,25 @@
+uuid: 1b79878b-e1b1-41ea-b3f5-9ef66765275c
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:21426522-d00e-4c10-8388-8efdc8c5d745'
+  module:
+    - block_content
+  theme:
+    - b5association
+id: b5association_branding_2
+theme: b5association
+region: footer_top
+weight: -7
+provider: null
+plugin: 'block_content:21426522-d00e-4c10-8388-8efdc8c5d745'
+settings:
+  id: 'block_content:21426522-d00e-4c10-8388-8efdc8c5d745'
+  label: Branding
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

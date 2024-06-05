@@ -1,4 +1,4 @@
-uuid: 0f5d6b09-a635-4a70-962b-bc73ed4767a2
+uuid: 384d42ea-1612-4e78-b929-cb8b9ebad9e7
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Main navigation'
+  label: 'Основна навіґація'
   label_display: '0'
   provider: system
   level: 1

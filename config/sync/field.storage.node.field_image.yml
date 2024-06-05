@@ -1,5 +1,5 @@
-uuid: b08f4b9f-908c-4f2a-a1f0-e746bb0d5280
-langcode: uk
+uuid: 2a5b5895-5d4c-4043-922c-fb499f81baa9
+langcode: en
 status: true
 dependencies:
   module:
@@ -18,7 +18,7 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

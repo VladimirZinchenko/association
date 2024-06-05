@@ -1,4 +1,4 @@
-uuid: b70d6790-7ada-4939-bdc0-958ee7eae70c
+uuid: 6d6a4d87-2750-4579-b0da-d993a458ccc5
 langcode: en
 status: true
 dependencies:
@@ -13,13 +13,13 @@ _core:
 id: b5association_footer
 theme: b5association
 region: footer
-weight: -6
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
   label: 'Нижній колонтитул'
-  label_display: '0'
+  label_display: visible
   provider: system
   level: 1
   depth: 0

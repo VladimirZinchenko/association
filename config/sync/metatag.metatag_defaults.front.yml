@@ -1,11 +1,11 @@
-uuid: 4a561b47-212c-417c-af08-675f62c0c845
-langcode: uk
+uuid: 2c99a13b-bebe-4b66-8055-f131739bfdee
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
 id: front
-label: 'Головна сторінка'
+label: 'Front page'
 tags:
   canonical_url: '[site:url]'
   shortlink: '[site:url]'

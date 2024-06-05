@@ -1,10 +1,10 @@
-uuid: 8a922e55-9718-494e-a121-f1f752455e65
-langcode: uk
+uuid: ebd62e7e-32c5-4489-837d-00a0f61c2e2f
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
-name: Теґи
+name: Tags
 vid: tags
-description: 'Теґи використовуються для групування статей зі схожими темами в категорії.'
+description: 'Use tags to group articles on similar topics into categories.'
 weight: 0

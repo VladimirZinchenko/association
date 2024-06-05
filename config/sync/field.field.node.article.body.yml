@@ -1,5 +1,5 @@
-uuid: 36c8a97b-103c-4681-b5e7-486d18a59556
-langcode: uk
+uuid: 2759a84c-88e5-4192-8a7f-72454bae0089
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,11 +13,15 @@ id: node.article.body
 field_name: body
 entity_type: node
 bundle: article
-label: Вміст
+label: Body
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et. Duis at tellus at urna condimentum mattis pellentesque id. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Risus quis varius quam quisque id. Magnis dis parturient montes nascetur. Eget mi proin sed libero enim sed faucibus turpis in. In nulla posuere sollicitudin aliquam ultrices sagittis.</p><p>Malesuada pellentesque elit eget gravida cum sociis natoque. Lorem mollis aliquam ut porttitor. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Erat nam at lectus urna duis convallis. Adipiscing enim eu turpis egestas. Montes nascetur ridiculus mus mauris vitae ultricies leo. Id diam maecenas ultricies mi. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Auctor urna nunc id cursus. Sed felis eget velit aliquet sagittis id consectetur purus. Nisi porta lorem mollis aliquam ut porttitor leo a diam.</p><p>Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Et magnis dis parturient montes nascetur ridiculus mus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Integer feugiat scelerisque varius morbi enim. Lectus arcu bibendum at varius vel pharetra vel turpis. Pharetra sit amet aliquam id diam maecenas ultricies mi. Diam vel quam elementum pulvinar etiam. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi.</p>'
+    summary: ''
+    format: full_html
 default_value_callback: ''
 settings:
   display_summary: true

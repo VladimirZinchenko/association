@@ -1,11 +1,11 @@
-uuid: 5a4f7449-d4d6-4bbf-940a-538e631d290f
-langcode: uk
+uuid: 166669d9-c90b-4a6b-87f9-a0793c9fdb5b
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 35CefWbnzaiytcg3acexxz_GTvuwIjYd_ZTcmmR-tXA
 id: zxx
-label: 'Не застосовне'
+label: 'Not applicable'
 direction: ltr
 weight: 3
 locked: true

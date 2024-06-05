@@ -1,5 +1,5 @@
-uuid: c2ebb3de-c679-4f0b-87b7-92bd1a51f8d7
-langcode: uk
+uuid: d6059117-966d-44fc-84af-d076bbb85890
+langcode: en
 status: true
 dependencies:
   config:
@@ -12,8 +12,8 @@ id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Теґи
-description: 'Введіть відокремлений комами перелік. Приклад: Амстердам, Київ, "Клівленд, Огайо".'
+label: Tags
+description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
 translatable: true
 default_value: {  }

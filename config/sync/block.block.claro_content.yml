@@ -1,5 +1,5 @@
-uuid: e72654e5-46f9-4a90-bb6f-8237f3080709
-langcode: uk
+uuid: 30dd2863-c0b3-43b4-bc71-a891c260b197
+langcode: en
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Основний вміст сторінки'
+  label: 'Main page content'
   label_display: '0'
   provider: system
 visibility: {  }

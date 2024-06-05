@@ -1,11 +1,11 @@
-uuid: e046d187-d465-4051-a4b4-a0e36d9e7aaf
-langcode: uk
+uuid: 3b9445cd-7cc8-45f3-93bc-d991e9ffcada
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
 id: user
-label: Користувач
+label: User
 tags:
   canonical_url: '[user:url]'
   description: '[site:name]'

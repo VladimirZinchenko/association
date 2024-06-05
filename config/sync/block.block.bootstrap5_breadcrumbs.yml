@@ -1,5 +1,5 @@
-uuid: 2908b39b-9a81-4db4-96db-8db98523eb26
-langcode: uk
+uuid: 9f074410-9a12-4c54-8b8d-7848423b207f
+langcode: en
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: 'Рядки навіґації'
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }

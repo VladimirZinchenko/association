@@ -1,9 +1,11 @@
-uuid: 01bddd5b-e5a8-423b-accb-3d8598ab2d4f
-langcode: uk
+uuid: fbdd105c-4e39-45da-9ea7-99f4d944c326
+langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
 id: en
 label: English
 direction: ltr
-weight: 1
+weight: 0
 locked: false

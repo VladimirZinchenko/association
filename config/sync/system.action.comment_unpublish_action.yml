@@ -1,5 +1,5 @@
-uuid: 6274ebfb-b88e-49a0-ba9d-faafe6cd5f42
-langcode: uk
+uuid: 11ffd649-554a-4452-88f1-b1fbc116dd90
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
 id: comment_unpublish_action
-label: 'Зняти з публікації коментар'
+label: 'Unpublish comment'
 type: comment
 plugin: 'entity:unpublish_action:comment'
 configuration: {  }

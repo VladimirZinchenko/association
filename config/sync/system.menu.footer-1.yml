@@ -1,8 +1,8 @@
-uuid: 4f2d327b-701c-491c-9cb6-ff5ffcd6325a
-langcode: uk
+uuid: 0cdf0086-3533-4c93-b1c2-72191a8d2ad2
+langcode: en
 status: true
 dependencies: {  }
 id: footer-1
-label: 'Нижній колонтитул 1'
-description: 'Посилання відомостей про сайт'
+label: 'Footer 1'
+description: 'Site information'
 locked: false

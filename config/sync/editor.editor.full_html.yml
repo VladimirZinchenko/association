@@ -1,5 +1,5 @@
-uuid: eaaa51b3-2862-4271-afc5-ad240e86b8e6
-langcode: uk
+uuid: 7b665035-5c30-4de0-904e-a05affa82fd7
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,6 +13,8 @@ editor: ckeditor5
 settings:
   toolbar:
     items:
+      - bold
+      - italic
       - strikethrough
       - superscript
       - subscript
@@ -27,8 +29,9 @@ settings:
       - blockQuote
       - drupalInsertImage
       - insertTable
-      - '|'
       - specialCharacters
+      - horizontalLine
+      - '|'
       - heading
       - '|'
       - sourceEditing

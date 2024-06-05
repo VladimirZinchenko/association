@@ -1,5 +1,5 @@
-uuid: a06f65ed-6c60-44bf-97eb-41078cce9d98
-langcode: uk
+uuid: 50e562ad-6143-46d5-a96f-2dc44e3a9b95
+langcode: en
 status: true
 dependencies:
   module:
@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: x_ok_ZsfA4Xk4B_hVW3O4-3PcNoK57nXLz_Dlletidg
 id: pathauto_update_alias_user
-label: 'Оновити синонім URL'
+label: 'Update URL alias'
 type: user
 plugin: pathauto_update_alias
 configuration: {  }

@@ -1,0 +1,22 @@
+uuid: 4e4a8413-5861-4176-b942-beb16fb6d663
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: document
+label: Document
+type: 'canonical_entities:node'
+pattern: '[node:field_section]/[node:title]'
+selection_criteria:
+  def47ed9-96ff-4538-9557-de70b2a26eff:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: def47ed9-96ff-4538-9557-de70b2a26eff
+    context_mapping:
+      node: node
+    bundles:
+      document: document
+selection_logic: and
+weight: -5
+relationships: {  }

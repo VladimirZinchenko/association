@@ -1,0 +1,28 @@
+uuid: fa5016a1-2ca3-449e-b41f-b596ef88469d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.project
+  module:
+    - text
+id: node.project.body
+field_name: body
+entity_type: node
+bundle: project
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et. Duis at tellus at urna condimentum mattis pellentesque id. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Risus quis varius quam quisque id. Magnis dis parturient montes nascetur. Eget mi proin sed libero enim sed faucibus turpis in. In nulla posuere sollicitudin aliquam ultrices sagittis. Malesuada pellentesque elit eget gravida cum sociis natoque. Lorem mollis aliquam ut porttitor.</p><p>Nunc mattis enim ut tellus elementum sagittis vitae et leo. Erat nam at lectus urna duis convallis. Adipiscing enim eu turpis egestas. Montes nascetur ridiculus mus mauris vitae ultricies leo. Id diam maecenas ultricies mi. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Auctor urna nunc id cursus. Sed felis eget velit aliquet sagittis id consectetur purus. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Et magnis dis parturient montes nascetur ridiculus mus.</p><p>Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Integer feugiat scelerisque varius morbi enim. Lectus arcu bibendum at varius vel pharetra vel turpis. Pharetra sit amet aliquam id diam maecenas ultricies mi. Diam vel quam elementum pulvinar etiam. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Arcu ac tortor dignissim convallis. Eget dolor morbi non arcu risus quis. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat.</p><p>Massa vitae tortor condimentum lacinia quis vel eros. Quis risus sed vulputate odio ut. Dapibus ultrices in iaculis nunc sed augue lacus. Tortor at auctor urna nunc id cursus. Feugiat in fermentum posuere urna nec tincidunt. Tincidunt dui ut ornare lectus sit amet est placerat. Massa ultricies mi quis hendrerit dolor. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Pellentesque diam volutpat commodo sed egestas egestas. At auctor urna nunc id cursus metus aliquam eleifend mi.</p>'
+    summary: ''
+    format: full_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

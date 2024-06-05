@@ -1,5 +1,5 @@
-uuid: f152951b-9597-45bb-b75a-3e3aaa2688e4
-langcode: uk
+uuid: 72650f7b-55bb-48b7-92b5-ed9eb1748910
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: Зображення
+label: Image
 description: ''
 required: false
 translatable: true
@@ -22,17 +22,17 @@ default_value_callback: ''
 settings:
   handler: 'default:file'
   handler_settings: {  }
-  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_directory: field/image/article
   file_extensions: 'png gif jpg jpeg webp'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
   alt_field: true
-  alt_field_required: true
+  alt_field_required: false
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null

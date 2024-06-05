@@ -1,5 +1,5 @@
-uuid: 9f4d10ad-457d-4ad9-b244-05dbf64d3339
-langcode: uk
+uuid: 43155f57-6e89-46ea-a654-abdb1a59f6cf
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,7 +8,6 @@ dependencies:
     - comment
     - contact
     - filter
-    - search
     - system
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
@@ -20,5 +19,4 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
-  - 'search content'
   - 'use text format restricted_html'

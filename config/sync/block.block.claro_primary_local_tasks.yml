@@ -1,5 +1,5 @@
-uuid: 0f78f085-4a29-4785-8169-40292473502b
-langcode: uk
+uuid: 98aac4a5-966f-412c-9604-e333e93a3a04
+langcode: en
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Основні вкладки'
+  label: 'Primary tabs'
   label_display: '0'
   provider: core
   primary: true
