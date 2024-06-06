@@ -1,0 +1,18 @@
+uuid: 1903391a-bb76-42c8-896f-2354471418ab
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.created
+field_name: created
+entity_type: node
+bundle: article
+label: Створено
+description: 'Дата й час створення матеріалу.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

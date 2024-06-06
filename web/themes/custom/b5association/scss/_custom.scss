@@ -1,8 +1,26 @@
 // Custom theme styling.
 
+.block-language ul {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+	li {
+		padding: 0.5rem;
+	}
+	li.is-active {
+		display: none;
+	}
+	li a {
+		text-decoration: none;
+	}
+}
+
 footer.site-footer {
 	h3 {
 		font-size: $h6-font-size;
+	}
+	li:last-child {
+		margin-bottom: 1.25rem;
 	}
 }
 

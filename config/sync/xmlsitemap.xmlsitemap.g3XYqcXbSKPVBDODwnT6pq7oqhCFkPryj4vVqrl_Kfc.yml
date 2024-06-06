@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: g3XYqcXbSKPVBDODwnT6pq7oqhCFkPryj4vVqrl_Kfc
-label: 'https://association.ddev.site'
+label: association.en
 context:
   language: en

@@ -8,6 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus:
       - footer-1
+      - footer-2
       - main
     parent: 'main:'
 _core:

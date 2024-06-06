@@ -1,23 +1,23 @@
-uuid: deff4191-7496-4034-b97d-7fe5df77bece
+uuid: c03b7767-9bcb-4a6d-87ea-68ed7fe260d5
 langcode: uk
 status: true
 dependencies:
   module:
     - taxonomy
-id: tags
-label: Tags
+id: term
+label: Term
 type: 'canonical_entities:taxonomy_term'
 pattern: '[term:name]'
 selection_criteria:
-  eca083d3-2233-45ce-8fa3-8735035cd3fe:
+  bfda06a7-abe6-4af0-b1fb-bc750e9b8ec4:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: eca083d3-2233-45ce-8fa3-8735035cd3fe
+    uuid: bfda06a7-abe6-4af0-b1fb-bc750e9b8ec4
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
       section: section
       tags: tags
 selection_logic: and
-weight: -5
+weight: 0
 relationships: {  }

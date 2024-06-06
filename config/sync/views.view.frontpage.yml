@@ -8,6 +8,7 @@ dependencies:
   module:
     - node
     - user
+    - views_bootstrap
 _core:
   default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
 id: frontpage
@@ -229,12 +230,18 @@ display:
             default_group_multiple: {  }
             group_items: {  }
       style:
-        type: default
+        type: views_bootstrap_grid
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
+          grid_class: ''
+          col_xs: none
+          col_sm: none
+          col_md: col-md-2
+          col_lg: col-lg-3
+          col_xl: col-xl-4
+          col_xxl: none
       row:
         type: 'entity:node'
         options:

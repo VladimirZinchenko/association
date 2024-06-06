@@ -1,0 +1,22 @@
+uuid: 36783c97-3325-4b0b-943b-94f18d02458c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.section
+id: taxonomy_term.section.status
+field_name: status
+entity_type: taxonomy_term
+bundle: section
+label: Опубліковано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

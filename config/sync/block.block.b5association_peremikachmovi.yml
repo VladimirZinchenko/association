@@ -1,0 +1,20 @@
+uuid: 7ec75add-64af-4c3a-8824-49f1d9a98d10
+langcode: uk
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - b5association
+id: b5association_peremikachmovi
+theme: b5association
+region: footer_bottom
+weight: -7
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Перемикач мови'
+  label_display: '0'
+  provider: language
+visibility: {  }

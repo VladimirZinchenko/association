@@ -38,19 +38,12 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_project:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 2
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
 hidden:
+  field_project: true
   field_tags: true
   langcode: true

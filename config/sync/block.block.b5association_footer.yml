@@ -13,12 +13,12 @@ _core:
 id: b5association_footer
 theme: b5association
 region: footer
-weight: -5
+weight: -7
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Нижній колонтитул'
+  label: Footer
   label_display: visible
   provider: system
   level: 1

@@ -47,3 +47,4 @@ display:
     display_options:
       menu:
         title: Блоки
+        description: 'Створення та редагування блоків вмісту.'
