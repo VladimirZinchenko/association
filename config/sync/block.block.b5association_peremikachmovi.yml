@@ -9,7 +9,7 @@ dependencies:
 id: b5association_peremikachmovi
 theme: b5association
 region: footer_bottom
-weight: -7
+weight: -6
 provider: null
 plugin: 'language_block:language_interface'
 settings:

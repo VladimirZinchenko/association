@@ -1,23 +1,22 @@
-uuid: 14fe6fb5-4b98-4c17-a7d1-7a9bbe61edb7
+uuid: 0f92b9e1-24d7-4963-a07a-1e47ae52d186
 langcode: uk
 status: true
 dependencies:
   module:
     - node
-id: page
-label: Page
+id: article
+label: Article
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: 'news/[node:title]'
 selection_criteria:
-  2adfdddf-47ad-43eb-8841-f44089afcf63:
+  95ecc172-9243-4da9-949e-3e64584647c5:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 2adfdddf-47ad-43eb-8841-f44089afcf63
+    uuid: 95ecc172-9243-4da9-949e-3e64584647c5
     context_mapping:
       node: node
     bundles:
-      page: page
-      project: project
+      article: article
 selection_logic: and
 weight: -5
 relationships: {  }

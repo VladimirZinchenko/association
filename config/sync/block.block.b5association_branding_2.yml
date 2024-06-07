@@ -10,7 +10,7 @@ dependencies:
     - b5association
 id: b5association_branding_2
 theme: b5association
-region: footer_top
+region: footer_bottom
 weight: -7
 provider: null
 plugin: 'block_content:21426522-d00e-4c10-8388-8efdc8c5d745'
