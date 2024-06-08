@@ -9,7 +9,6 @@ entity_type_groups:
     event:
       basic: basic
     page:
-      basic: basic
       advanced: advanced
     project:
       basic: basic

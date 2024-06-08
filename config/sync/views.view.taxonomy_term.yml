@@ -218,10 +218,10 @@ display:
           row_class: ''
           default_row_class: false
           uses_fields: false
-          grid_class: ''
+          grid_class: mb-3
           col_xs: none
-          col_sm: col-sm-2
-          col_md: col-md-3
+          col_sm: none
+          col_md: col-md-6
           col_lg: col-lg-4
           col_xl: none
           col_xxl: none
@@ -312,7 +312,10 @@ display:
       query:
         type: views_query
         options: {  }
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
       path: taxonomy/term/%
     cache_metadata:
       max-age: -1

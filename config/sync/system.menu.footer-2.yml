@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: footer-2
 label: 'Footer 2'
-description: ''
+description: 'Site information links'
 locked: false

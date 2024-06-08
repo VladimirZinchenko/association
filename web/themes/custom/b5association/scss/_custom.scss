@@ -3,7 +3,6 @@
 .block-language ul {
 	list-style: none;
 	margin-bottom: 0;
-	padding-left: 0;
 	li {
 		padding: 0.5rem;
 	}
@@ -15,12 +14,13 @@
 	}
 }
 
+nav h3 {
+	font-size: $h5-font-size;
+}
+
 footer.site-footer {
-	h3 {
-		font-size: $h6-font-size;
-	}
-	li:last-child {
-		margin-bottom: 1.25rem;
+	nav {
+		margin-bottom: 2rem;
 	}
 }
 
@@ -35,5 +35,12 @@ footer .region-footer {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+	}
+}
+footer .region-footer-bottom {
+	@include media-breakpoint-up(md) {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 }

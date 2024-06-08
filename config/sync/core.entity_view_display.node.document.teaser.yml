@@ -23,18 +23,11 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_section:
-    type: entity_reference_label
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
 hidden:
+  field_section: true
   langcode: true

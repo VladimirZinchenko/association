@@ -1,0 +1,8 @@
+uuid: 95ac8995-48d2-4c91-8602-11fa68c81c7a
+langcode: en
+status: true
+dependencies: {  }
+id: sections
+label: Sections
+description: 'Sections menu'
+locked: false

@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:footer-1'
 settings:
   id: 'system_menu_block:footer-1'
-  label: 'Нижній колонтитул 1'
+  label: 'Footer 1'
   label_display: visible
   provider: system
   level: 1

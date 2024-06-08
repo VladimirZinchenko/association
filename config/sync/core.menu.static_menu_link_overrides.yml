@@ -7,3 +7,15 @@ definitions:
     weight: 0
     expanded: false
     enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__sections__2':
+    expanded: true
+    parent: ''
+    weight: 0
+    menu_name: section
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__sections__3':
+    expanded: true
+    parent: ''
+    weight: 0
+    menu_name: section
+    enabled: true

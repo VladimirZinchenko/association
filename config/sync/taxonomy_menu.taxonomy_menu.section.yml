@@ -1,0 +1,16 @@
+uuid: 99c9f55b-b6f6-4e58-9e56-d9f8b4ad6bfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sections
+    - taxonomy.vocabulary.section
+id: section
+label: Section
+vocabulary: section
+menu: sections
+expanded: true
+depth: 0
+menu_parent: 'sections:'
+description_field_name: null
+use_term_weight_order: true

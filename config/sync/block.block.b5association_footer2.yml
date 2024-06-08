@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:footer-2'
 settings:
   id: 'system_menu_block:footer-2'
-  label: 'Нижній колонтитул 2'
+  label: 'Footer 2'
   label_display: visible
   provider: system
   level: 1
