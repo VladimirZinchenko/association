@@ -9,6 +9,5 @@ label: Content
 tags:
   canonical_url: '[node:url]'
   description: '[node:summary]'
-  'hreflang_per_language:hreflang_en': '[node:source:url:absolute]'
   hreflang_xdefault: '[node:source:url:absolute]'
   title: '[node:title] | [site:name]'

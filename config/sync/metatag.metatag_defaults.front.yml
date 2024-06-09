@@ -8,7 +8,4 @@ id: front
 label: 'Front page'
 tags:
   canonical_url: '[site:url]'
-  'hreflang_per_language:hreflang_en': 'https://aaevr.net/'
-  'hreflang_per_language:hreflang_uk': 'https://aaevr.net/uk'
-  hreflang_xdefault: 'https://aaevr.net/'
   shortlink: '[site:url]'

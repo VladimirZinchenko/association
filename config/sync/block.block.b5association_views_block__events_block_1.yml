@@ -1,22 +1,22 @@
-uuid: 0ac27804-66d1-483d-936b-41d913d597d2
-langcode: uk
+uuid: a8b6e16c-2047-4ec0-ba50-55c006395cf4
+langcode: en
 status: true
 dependencies:
   config:
-    - views.view.projects_events
+    - views.view.events
   module:
     - node
     - views
   theme:
     - b5association
-id: b5association_views_block__projects_events_block_1
+id: b5association_views_block__events_block_1
 theme: b5association
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:projects_events-block_1'
+plugin: 'views_block:events-block_1'
 settings:
-  id: 'views_block:projects_events-block_1'
+  id: 'views_block:events-block_1'
   label: ''
   label_display: visible
   provider: views
