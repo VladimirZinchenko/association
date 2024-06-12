@@ -9,9 +9,9 @@ label: Global
 tags:
   canonical_url: '[current-page:url]'
   google_site_verification: m-mHf4hvI7J-Mb9o9trET6xe8naqmYsWtR2yHuE0DjI
-  image_src: '[site:url]sites/default/files/default_images/media-image.jpg'
+  image_src: /sites/default/files/default_images/media-image.jpg
   og_description: '[current-page:metatag:description]'
-  og_image: '[site:url]sites/default/files/default_images/media-image.jpg'
+  og_image: /sites/default/files/default_images/media-image.jpg
   og_image_alt: 'AAEVR media image'
   og_image_height: '810'
   og_image_type: image/jpeg

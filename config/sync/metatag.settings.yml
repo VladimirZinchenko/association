@@ -10,6 +10,7 @@ entity_type_groups:
       basic: basic
     page:
       advanced: advanced
+      open_graph: open_graph
     project:
       basic: basic
   taxonomy_term:
