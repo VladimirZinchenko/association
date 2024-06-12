@@ -5,7 +5,7 @@ entity_type_groups:
     article:
       basic: basic
     document:
-      basic: basic
+      advanced: advanced
     event:
       basic: basic
     page:
@@ -14,9 +14,9 @@ entity_type_groups:
       basic: basic
   taxonomy_term:
     section:
-      basic: basic
+      advanced: advanced
     tags:
-      basic: basic
+      advanced: advanced
   user:
     user:
       basic: basic

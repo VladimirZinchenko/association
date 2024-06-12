@@ -18,8 +18,8 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Нижній колонтитул'
-  label_display: '0'
+  label: Footer
+  label_display: visible
   provider: system
   level: 1
   depth: 0

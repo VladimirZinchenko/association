@@ -1,0 +1,13 @@
+uuid: 4c960bb0-20b0-4453-b8bc-9c342d9ca9b2
+langcode: en
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Basic page'
+tags:
+  og_image: '[site:url]sites/default/files/default_images/media-image.jpg'
+  og_image_alt: 'AAEVR media image'
+  og_image_height: '810'
+  og_image_type: image/jpeg
+  og_image_width: '1440'
+  robots: noindex

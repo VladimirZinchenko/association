@@ -20,8 +20,9 @@ $nav-tabs-link-active-bg-sm: #dee2e6 !default;
 $local-tasks-primary-margin: 1rem 0 !default;
 $local-tasks-secondary-margin: 0 0 1rem 0 !default;
 
-$table-striped-bg: #f9f9f9 !default;
+$table-striped-bg:		#f9f9f9 !default;
 
 //Add
-$enable-rounded: false !default;
-$breadcrumb-divider: quote("»") !default;
+$enable-rounded:		false !default;
+$breadcrumb-divider:	quote("»") !default;
+$link-decoration:		none !default;

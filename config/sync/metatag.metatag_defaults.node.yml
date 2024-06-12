@@ -10,4 +10,9 @@ tags:
   canonical_url: '[node:url]'
   description: '[node:summary]'
   hreflang_xdefault: '[node:source:url:absolute]'
+  og_image: '[node:field_image]'
+  og_image_alt: '[node:field_image:alt]'
+  og_image_height: '[node:field_image:height]'
+  og_image_type: image/jpeg
+  og_image_width: '[node:field_image:width]'
   title: '[node:title] | [site:name]'
