@@ -65,11 +65,10 @@ set footer_classes = ' ' ~
       {{ page.nav_branding }}
 
       {% if page.nav_main or page.nav_additional %}
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        {# responsive menu icon #}
+		<a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+		<span class="icon"></span>
+		</a>
 
         <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
           {{ page.nav_main }}

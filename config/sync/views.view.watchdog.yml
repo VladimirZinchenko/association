@@ -1,6 +1,6 @@
 uuid: 19e912a0-72ae-4fec-9bae-b36e2459f8e9
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - dblog
@@ -454,6 +454,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

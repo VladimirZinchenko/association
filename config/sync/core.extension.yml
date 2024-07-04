@@ -46,6 +46,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  responsive_menu: 0
   semanticviews: 0
   system: 0
   taxonomy: 0
@@ -64,6 +65,7 @@ module:
   xmlsitemap: 1
   content_translation: 10
   views: 10
+  tvi: 15
   standard: 1000
 theme:
   claro: 0

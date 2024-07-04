@@ -4,11 +4,11 @@ langcode: en
 uuid: 7bc58ea7-f1d7-4361-a718-a877451ff339
 name: AAEVR
 mail: acoustic@alligat.com.ua
-slogan: ''
+slogan: 'Association of Art-Critics, Experts, Valuation Specialists and Restorers'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,20 +1,21 @@
-uuid: addd6e05-2a96-4f63-9c86-41aef2e6397e
+uuid: 7f36ac66-868d-44a7-8a46-fd6728f8cef4
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.rss
     - core.entity_view_mode.node.teaser
+    - node.type.article
   module:
     - node
-    - taxonomy
     - user
     - views_bootstrap
 _core:
-  default_config_hash: z9csC6m3M65M2JczdNul_lMUrVg8ZO66pbSq8jPCBKs
-id: taxonomy_term
-label: 'Taxonomy term'
-module: taxonomy
-description: 'Content belonging to a certain taxonomy term.'
+  default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
+id: frontpage_articles
+label: 'Frontpage Articles'
+module: node
+description: 'Articles promoted to the front page.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -25,29 +26,13 @@ display:
     display_plugin: default
     position: 0
     display_options:
+      title: News
       fields: {  }
       pager:
-        type: full
+        type: some
         options:
           offset: 0
-          items_per_page: 12
-          total_pages: 0
-          id: 0
-          tags:
-            next: ››
-            previous: ‹‹
-            first: '« First'
-            last: 'Last »'
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          quantity: 9
-          pagination_heading_level: h4
+          items_per_page: 6
       exposed_form:
         type: basic
         options:
@@ -65,16 +50,52 @@ display:
       cache:
         type: tag
         options: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          label: ''
+          empty: true
+          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
+          tokenize: false
+        node_listing_empty:
+          id: node_listing_empty
+          table: node
+          field: node_listing_empty
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          plugin_id: node_listing_empty
+          label: ''
+          empty: true
+        title:
+          id: title
+          table: views
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: title
+          label: ''
+          empty: true
+          title: Welcome!
       sorts:
         sticky:
           id: sticky
-          table: taxonomy_index
+          table: node_field_data
           field: sticky
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: standard
+          entity_type: node
+          entity_field: sticky
+          plugin_id: boolean
           order: DESC
           expose:
             label: ''
@@ -82,11 +103,13 @@ display:
           exposed: false
         created:
           id: created
-          table: taxonomy_index
+          table: node_field_data
           field: created
           relationship: none
           group_type: group
           admin_label: ''
+          entity_type: node
+          entity_field: created
           plugin_id: date
           order: DESC
           expose:
@@ -94,48 +117,61 @@ display:
             field_identifier: created
           exposed: false
           granularity: second
-      arguments:
-        tid:
-          id: tid
-          table: taxonomy_index
-          field: tid
+      arguments: {  }
+      filters:
+        promote:
+          id: promote
+          table: node_field_data
+          field: promote
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: taxonomy_index_tid
-          default_action: 'not found'
-          exception:
-            value: ''
-            title_enable: false
-            title: All
-          title_enable: true
-          title: '{{ arguments.tid }}'
-          default_argument_type: fixed
-          default_argument_options:
-            argument: ''
-          summary_options:
-            base_path: ''
-            count: true
-            override: false
-            items_per_page: 25
-          summary:
-            sort_order: asc
-            number_of_records: 0
-            format: default_summary
-          specify_validation: true
-          validate:
-            type: 'entity:taxonomy_term'
-            fail: 'not found'
-          validate_options:
-            bundles: {  }
-            access: true
-            operation: view
-            multiple: 0
-          break_phrase: false
-          add_table: false
-          require_value: false
-          reduce_duplicates: false
-      filters:
+          entity_type: node
+          entity_field: promote
+          plugin_id: boolean
+          operator: '='
+          value: '1'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
         langcode:
           id: langcode
           table: node_field_data
@@ -178,16 +214,19 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-        status:
-          id: status
-          table: taxonomy_index
-          field: status
+        type:
+          id: type
+          table: node_field_data
+          field: type
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: boolean
-          operator: '='
-          value: '1'
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            article: article
           group: 1
           exposed: false
           expose:
@@ -204,6 +243,7 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            reduce: false
           is_grouped: false
           group_info:
             label: ''
@@ -222,7 +262,7 @@ display:
           row_class: ''
           default_row_class: false
           uses_fields: false
-          grid_class: mb-3
+          grid_class: mb-5
           col_xs: none
           col_sm: none
           col_md: col-md-6
@@ -242,30 +282,30 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      link_display: page_1
-      link_url: ''
-      header:
-        entity_taxonomy_term:
-          id: entity_taxonomy_term
-          table: views
-          field: entity_taxonomy_term
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: entity
-          empty: true
-          target: '{{ raw_arguments.tid }}'
-          view_mode: full
-          tokenize: true
-          bypass_access: false
+      header: {  }
       footer: {  }
       display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - url
-        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  block_1:
+    id: block_1
+    display_title: Block
+    display_plugin: block
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -290,43 +330,20 @@ display:
         type: node_rss
         options:
           relationship: none
-          view_mode: default
-      query:
-        type: views_query
-        options: {  }
-      display_extenders: {  }
-      path: taxonomy/term/%/feed
-      displays:
-        default: '0'
-        page_1: '0'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_interface'
-        - url
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  page_1:
-    id: page_1
-    display_title: Page
-    display_plugin: page
-    position: 1
-    display_options:
-      query:
-        type: views_query
-        options: {  }
+          view_mode: rss
       display_extenders:
         metatag_display_extender:
           metatags: {  }
           tokenize: false
-      path: taxonomy/term/%
+      path: rss.xml
+      sitename_title: true
+      displays:
+        default: '0'
+        block_1: '0'
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - url
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

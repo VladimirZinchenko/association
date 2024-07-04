@@ -25,3 +25,15 @@ definitions:
     parent: ''
     expanded: false
     enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__2':
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+    menu_name: sections
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__3':
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+    menu_name: sections

@@ -47,6 +47,7 @@ display:
             offset: false
             offset_label: Offset
           quantity: 9
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
@@ -105,7 +106,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: numeric
+          plugin_id: entity_target_id
           default_action: default
           exception:
             value: all
@@ -131,6 +132,7 @@ display:
           validate_options: {  }
           break_phrase: false
           not: false
+          target_entity_type_id: node
       filters:
         status:
           id: status
@@ -235,26 +237,6 @@ display:
         metatag_display_extender:
           metatags: {  }
           tokenize: false
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  page_1:
-    id: page_1
-    display_title: Page
-    display_plugin: page
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender:
-          metatags: {  }
-          tokenize: false
-      path: events
     cache_metadata:
       max-age: -1
       contexts:

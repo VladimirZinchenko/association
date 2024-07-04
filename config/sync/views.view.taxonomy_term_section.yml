@@ -1,18 +1,20 @@
-uuid: bdc76b6a-1bb7-44b9-9545-9f8232b387a9
+uuid: 61bbd824-75cf-4406-87a5-519e1564b16a
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
   module:
     - node
+    - taxonomy
     - user
+    - views_bootstrap
 _core:
-  default_config_hash: ko9GznzNBXHkuz09OCaBQ1YOSJYYjTY0TBpNV3WKnog
-id: archive
-label: Archive
-module: node
-description: 'All content, by month.'
+  default_config_hash: z9csC6m3M65M2JczdNul_lMUrVg8ZO66pbSq8jPCBKs
+id: taxonomy_term_section
+label: 'Taxonomy term Section'
+module: taxonomy
+description: 'Content belonging to a certain taxonomy term.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -23,18 +25,19 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Monthly archive'
       fields: {  }
       pager:
-        type: mini
+        type: full
         options:
           offset: 0
-          items_per_page: 10
+          items_per_page: 12
           total_pages: 0
           id: 0
           tags:
             next: ››
             previous: ‹‹
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -43,6 +46,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          quantity: 9
           pagination_heading_level: h4
       exposed_form:
         type: basic
@@ -63,15 +67,26 @@ display:
         options: {  }
       empty: {  }
       sorts:
+        sticky:
+          id: sticky
+          table: taxonomy_index
+          field: sticky
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: standard
+          order: DESC
+          expose:
+            label: ''
+            field_identifier: sticky
+          exposed: false
         created:
           id: created
-          table: node_field_data
+          table: taxonomy_index
           field: created
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          entity_field: created
           plugin_id: date
           order: DESC
           expose:
@@ -80,39 +95,47 @@ display:
           exposed: false
           granularity: second
       arguments:
-        created_year_month:
-          id: created_year_month
-          table: node_field_data
-          field: created_year_month
-          entity_type: node
-          plugin_id: date_year_month
-          default_action: summary
+        tid:
+          id: tid
+          table: taxonomy_index
+          field: tid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          default_action: 'not found'
           exception:
-            title_enable: true
+            value: ''
+            title_enable: false
+            title: All
           title_enable: true
-          title: '{{ arguments.created_year_month }}'
+          title: '{{ arguments.tid }}'
           default_argument_type: fixed
+          default_argument_options:
+            argument: ''
           summary_options:
-            override: true
-            items_per_page: 30
+            base_path: ''
+            count: true
+            override: false
+            items_per_page: 25
           summary:
-            sort_order: desc
+            sort_order: asc
+            number_of_records: 0
             format: default_summary
           specify_validation: true
+          validate:
+            type: 'entity:taxonomy_term'
+            fail: 'not found'
+          validate_options:
+            bundles: {  }
+            access: true
+            operation: view
+            multiple: 0
+          break_phrase: false
+          add_table: false
+          require_value: false
+          reduce_duplicates: false
       filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 0
-          expose:
-            operator: '0'
-            operator_limit_selection: false
-            operator_list: {  }
         langcode:
           id: langcode
           table: node_field_data
@@ -155,13 +178,57 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
+        status:
+          id: status
+          table: taxonomy_index
+          field: status
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: boolean
+          operator: '='
+          value: '1'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
       style:
-        type: default
+        type: views_bootstrap_grid
         options:
-          grouping: {  }
           row_class: ''
-          default_row_class: true
+          default_row_class: false
           uses_fields: false
+          grid_class: mb-3
+          col_xs: col-12
+          col_sm: none
+          col_md: none
+          col_lg: none
+          col_xl: none
+          col_xxl: none
       row:
         type: 'entity:node'
         options:
@@ -175,6 +242,8 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      link_display: page_1
+      link_url: ''
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -191,31 +260,8 @@ display:
     id: block_1
     display_title: Block
     display_plugin: block
-    position: 1
+    position: 2
     display_options:
-      arguments:
-        created_year_month:
-          id: created_year_month
-          table: node_field_data
-          field: created_year_month
-          entity_type: node
-          plugin_id: date_year_month
-          default_action: summary
-          exception:
-            title_enable: true
-          title_enable: true
-          title: '{{ arguments.created_year_month }}'
-          default_argument_type: fixed
-          summary_options:
-            items_per_page: 30
-          summary:
-            format: default_summary
-          specify_validation: true
-      query:
-        type: views_query
-        options: {  }
-      defaults:
-        arguments: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -230,13 +276,16 @@ display:
     id: page_1
     display_title: Page
     display_plugin: page
-    position: 2
+    position: 1
     display_options:
       query:
         type: views_query
         options: {  }
-      display_extenders: {  }
-      path: archive
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
+      path: taxonomy/term/%
     cache_metadata:
       max-age: -1
       contexts:

@@ -1,22 +1,22 @@
-uuid: 9f0ad38f-0f4d-4cfa-a891-55264f76332c
-langcode: uk
+uuid: a30e9ad0-4e70-4a03-a70c-3aaeabc0d44d
+langcode: en
 status: true
 dependencies:
   module:
     - node
-id: event
-label: Event
+id: project
+label: Project
 type: 'canonical_entities:node'
-pattern: 'projects/[node:field_project]/[node:title]'
+pattern: 'projects/[node:title]'
 selection_criteria:
-  94b4c081-9313-4e88-949f-496d5264eb6d:
+  35fd35d2-c1af-4f2f-b752-a7d6d93e294c:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 94b4c081-9313-4e88-949f-496d5264eb6d
+    uuid: 35fd35d2-c1af-4f2f-b752-a7d6d93e294c
     context_mapping:
       node: node
     bundles:
-      event: event
+      project: project
 selection_logic: and
 weight: -5
 relationships: {  }

@@ -1,0 +1,20 @@
+uuid: 30dd475f-b274-4f36-9988-815ac48af34e
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - b5association
+id: b5association_horizontalmenu
+theme: b5association
+region: nav_main
+weight: 0
+provider: null
+plugin: responsive_menu_horizontal_menu
+settings:
+  id: responsive_menu_horizontal_menu
+  label: 'Horizontal menu'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }
