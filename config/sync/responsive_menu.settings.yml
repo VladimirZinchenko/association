@@ -2,7 +2,7 @@ _core:
   default_config_hash: 7oNO5Ci1XbGo6pXiGAo8fY7GXlxy41RhL7lGyt2OXYw
 horizontal_menu: main
 horizontal_depth: 9
-off_canvas_menus: 'main,account'
+off_canvas_menus: 'main, account'
 horizontal_wrapping_element: nav
 horizontal_breakpoint: sm-max
 horizontal_media_query: '(max-width: 767.98px)'
@@ -21,6 +21,8 @@ use_breakpoint: true
 allow_admin: false
 wrapper_admin: true
 wrapper_theme: false
-use_polyfills: false
 modify_viewport: true
 use_bootstrap: false
+toolbar_override: false
+use_polyfills: false
+override_toolbar: true
