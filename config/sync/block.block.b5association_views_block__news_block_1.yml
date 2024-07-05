@@ -1,30 +1,29 @@
-uuid: e007518b-68eb-4ac6-8f71-d297755a4d2d
+uuid: 8a9c2813-bae0-4d55-b753-df4596938cdf
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.projects
+    - views.view.news
   module:
     - system
     - views
   theme:
     - b5association
-id: b5association_views_block__projects_block_1
+id: b5association_views_block__news_block_1
 theme: b5association
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:projects-block_1'
+plugin: 'views_block:news-block_1'
 settings:
-  id: 'views_block:projects-block_1'
+  id: 'views_block:news-block_1'
   label: ''
   label_display: '0'
   provider: views
-  context_mapping: {  }
   views_label: ''
   items_per_page: none
 visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /projects
+    pages: /news
