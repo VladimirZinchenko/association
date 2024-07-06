@@ -6,7 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.project.body
     - field.field.node.project.field_image
-    - image.style.medium
+    - image.style.large
     - node.type.project
   module:
     - image
@@ -30,7 +30,7 @@ content:
     label: hidden
     settings:
       image_link: content
-      image_style: medium
+      image_style: large
       image_loading:
         attribute: lazy
     third_party_settings: {  }

@@ -9,7 +9,7 @@ _core:
 id: b5association_local_actions
 theme: b5association
 region: content
-weight: -5
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,22 +1,22 @@
-uuid: e4c37071-e2e0-4550-aa7f-08406ec4d5b0
+uuid: 033b2611-dbc5-4cb0-8327-dad73c13be2c
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.frontpage_events
+    - views.view.frontpage_projects
   module:
     - system
     - views
   theme:
     - b5association
-id: b5association_views_block__frontpage_events_block_1
+id: b5association_views_block__frontpage_projects_block_1
 theme: b5association
 region: content
-weight: -4
+weight: -3
 provider: null
-plugin: 'views_block:frontpage_events-block_1'
+plugin: 'views_block:frontpage_projects-block_1'
 settings:
-  id: 'views_block:frontpage_events-block_1'
+  id: 'views_block:frontpage_projects-block_1'
   label: ''
   label_display: visible
   provider: views
