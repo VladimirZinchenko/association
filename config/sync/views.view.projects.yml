@@ -199,7 +199,7 @@ display:
         type: views_bootstrap_grid
         options:
           row_class: ''
-          default_row_class: true
+          default_row_class: false
           uses_fields: false
           grid_class: ''
           col_xs: none

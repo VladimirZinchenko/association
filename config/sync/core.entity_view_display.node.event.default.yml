@@ -7,10 +7,8 @@ dependencies:
     - field.field.node.event.field_image
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
-    - image.style.wide
     - node.type.event
   module:
-    - image
     - text
     - user
 id: node.event.default
@@ -23,17 +21,6 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_image:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: wide
-      image_loading:
-        attribute: eager
-    third_party_settings: {  }
     weight: 0
     region: content
   field_project:
@@ -42,7 +29,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_tags:
     type: entity_reference_label
@@ -50,8 +37,9 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
 hidden:
+  field_image: true
   langcode: true
   links: true

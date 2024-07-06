@@ -329,3 +329,29 @@ ul.menu.mm-listview {
 	margin-left: 0;
 }
 //End Responsive-menu
+
+//Parallax
+
+.parallax {
+	height: 500px;
+	@include media-breakpoint-up(lg) {
+		height: 600px;
+	}
+}
+.parallax-caption { 
+	padding: $spacer;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.parallax-caption-content {
+	@include media-breakpoint-up(lg) {
+		width: 100%;
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

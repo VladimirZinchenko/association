@@ -2,6 +2,8 @@ uuid: 2791e5e6-4bca-43ce-a932-3373ce0d9bc3
 langcode: en
 status: true
 dependencies:
+  module:
+    - node
   theme:
     - b5association
 _core:
@@ -17,4 +19,12 @@ settings:
   label: 'Заголовок сторінки'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      document: document
+      page: page
