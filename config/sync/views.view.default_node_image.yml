@@ -1,4 +1,4 @@
-uuid: d3d0f422-50fe-4b86-ac3c-22b5ecd8e927
+uuid: c90abb31-25f6-46ad-9fac-21320fc63b3e
 langcode: en
 status: true
 dependencies:
@@ -11,11 +11,13 @@ dependencies:
     - node
     - semanticviews
     - user
-id: node_image
-label: 'Node Image'
-module: views
-description: 'Display Node Image on Node Page'
-tag: ''
+_core:
+  default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
+id: default_node_image
+label: 'Default Node Image'
+module: node
+description: 'Display Node Image on Node Page.'
+tag: default
 base_table: node_field_data
 base_field: nid
 display:
@@ -57,8 +59,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: false
-            ellipsis: false
+            word_boundary: true
+            ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -181,7 +183,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "    <div class=\"parallax-caption\">\r\n        <div class=\"container\">\r\n            <div class=\"parallax-caption-content\">\r\n                <h1 class=\"text-center text-uppercase display-3\">\r\n                    {{ title }}\r\n                </h1>\r\n            </div>\r\n        </div>\r\n    </div>"
+            text: "<div class=\"parallax-caption\">\r\n<div class=\"container\">\r\n<div class=\"parallax-caption-content\">\r\n<h1 class=\"text-center text-uppercase display-3\">{{ title }}</h1>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -241,23 +243,7 @@ display:
         type: tag
         options: {  }
       empty: {  }
-      sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          order: DESC
-          expose:
-            label: ''
-            field_identifier: ''
-          exposed: false
-          granularity: second
+      sorts: {  }
       arguments:
         nid:
           id: nid
@@ -306,6 +292,50 @@ display:
           group: 1
           expose:
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
+          operator: in
+          value:
+            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
         type:
           id: type
           table: node_field_data
@@ -352,7 +382,7 @@ display:
       style:
         type: semanticviews_style
         options:
-          grouping: {  }
+          uses_fields: false
           group:
             element_type: h3
             attributes: class|title
@@ -399,13 +429,14 @@ display:
     id: block_1
     display_title: Block
     display_plugin: block
-    position: 1
+    position: 2
     display_options:
       display_description: ''
       display_extenders:
         metatag_display_extender:
           metatags: {  }
           tokenize: false
+      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:

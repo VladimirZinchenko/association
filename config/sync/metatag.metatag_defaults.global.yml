@@ -10,7 +10,6 @@ tags:
   canonical_url: '[current-page:url]'
   google_site_verification: m-mHf4hvI7J-Mb9o9trET6xe8naqmYsWtR2yHuE0DjI
   image_src: /sites/default/files/default_images/media-image.jpg
-  og_description: '[current-page:metatag:description]'
   og_image: /sites/default/files/default_images/media-image.jpg
   og_image_alt: 'AAEVR media image'
   og_image_height: '810'
@@ -20,4 +19,5 @@ tags:
   og_title: '[current-page:title]'
   og_type: website
   og_url: '[current-page:url]'
+  rights: '[current-date:html_year]AAEVR'
   title: '[current-page:title] | [site:name]'
