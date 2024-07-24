@@ -19,5 +19,5 @@ tags:
   og_title: '[current-page:title]'
   og_type: website
   og_url: '[current-page:url]'
-  rights: '[current-date:html_year]AAEVR'
+  rights: 'Copyrights [current-date:html_year] AAEVR'
   title: '[current-page:title] | [site:name]'

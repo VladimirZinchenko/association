@@ -29,6 +29,7 @@ module:
   fixteaserlinks: 0
   help: 0
   image: 0
+  imce: 0
   inline_entity_form: 0
   language: 0
   link: 0

@@ -11,6 +11,7 @@ dependencies:
     - node.type.article
   module:
     - image
+    - imce
     - path
     - text
 _core:
@@ -43,7 +44,9 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings:
+      imce:
+        enabled: true
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3

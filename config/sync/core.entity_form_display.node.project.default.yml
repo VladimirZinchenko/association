@@ -9,6 +9,7 @@ dependencies:
     - node.type.project
   module:
     - image
+    - imce
     - path
     - text
 id: node.project.default
@@ -39,7 +40,9 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings:
+      imce:
+        enabled: true
   langcode:
     type: language_select
     weight: 3
@@ -81,6 +84,11 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete

@@ -27,12 +27,14 @@ settings:
       - numberedList
       - '|'
       - blockQuote
+      - imce_image
       - drupalInsertImage
       - insertTable
       - specialCharacters
       - horizontalLine
       - '|'
       - heading
+      - style
       - '|'
       - sourceEditing
   plugins:
@@ -58,6 +60,11 @@ settings:
       multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: Lead
+          element: '<p class="lead">'
 image_upload:
   status: true
   scheme: public
