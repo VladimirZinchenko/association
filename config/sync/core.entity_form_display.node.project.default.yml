@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.field.node.project.body
     - field.field.node.project.field_image
+    - field.field.node.project.field_link
     - image.style.thumbnail
     - node.type.project
   module:
     - image
     - imce
+    - link
     - path
     - text
 id: node.project.default
@@ -43,6 +45,14 @@ content:
     third_party_settings:
       imce:
         enabled: true
+  field_link:
+    type: link_default
+    weight: 26
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 3
