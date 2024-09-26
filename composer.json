@@ -36,8 +36,8 @@
         "drupal/taxonomy_menu": "^3.5",
         "drupal/tvi": "^2.0@alpha",
         "drupal/views_bootstrap": "^5.5@alpha",
-        "drupal/views_bulk_edit": "^2.9",
-        "drupal/views_bulk_operations": "^4.2",
+        "drupal/views_bulk_edit": "^3.0",
+        "drupal/views_bulk_operations": "^4.3@beta",
         "drupal/xmlsitemap": "^1.5",
         "drush/drush": "^12.5"
     },
