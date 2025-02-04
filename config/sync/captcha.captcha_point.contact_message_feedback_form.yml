@@ -1,0 +1,7 @@
+uuid: fde35c1c-051a-4ea8-af73-1847ce4edc2b
+langcode: en
+status: true
+dependencies: {  }
+formId: contact_message_feedback_form
+captchaType: default
+label: contact_message_feedback_form
