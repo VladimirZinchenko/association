@@ -382,7 +382,7 @@ display:
       style:
         type: semanticviews_style
         options:
-          uses_fields: false
+          grouping: {  }
           group:
             element_type: h3
             attributes: class|title
@@ -391,11 +391,11 @@ display:
             attributes: ''
           row:
             element_type: div
-            attributes: 'class|parallax mb-1'
+            attributes: 'class|parallax mb-2'
             last_every_nth: '0'
-            first_class: first
-            last_class: last
-            striping_classes: 'odd even'
+            first_class: ''
+            last_class: ''
+            striping_classes: ''
       row:
         type: fields
         options:
