@@ -1,0 +1,22 @@
+uuid: b5e66400-355b-4090-bb79-063e4428680b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: media
+label: Media
+type: 'canonical_entities:node'
+pattern: '/media/[node:nid]'
+selection_criteria:
+  db60520c-7523-4511-9ee0-58d7cb03572e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: db60520c-7523-4511-9ee0-58d7cb03572e
+    context_mapping:
+      node: node
+    bundles:
+      media: media
+selection_logic: and
+weight: -5
+relationships: {  }

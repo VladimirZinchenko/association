@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
     - field.field.node.event.field_image
+    - field.field.node.event.field_media
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
     - image.style.large
@@ -44,6 +45,7 @@ content:
     weight: 2
     region: content
 hidden:
+  field_media: true
   field_project: true
   field_tags: true
   langcode: true

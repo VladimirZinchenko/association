@@ -1,0 +1,30 @@
+uuid: ac4fbc1a-b216-481d-bae8-a4c728091220
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+id: paragraph.field_media_image
+field_name: field_media_image
+entity_type: paragraph
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 96a692a3-623c-4879-9b18-51d33a994bbc
+    alt: 'Media about a Event'
+    title: ''
+    width: 817
+    height: 817
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 16ba3bf3-d677-47ea-bde6-5018a40b27b5
+langcode: en
+status: true
+dependencies: {  }
+name: mini
+label: 'Mini (60×60)'
+effects:
+  4144eea1-20fb-4ce3-902c-1655953e48d7:
+    uuid: 4144eea1-20fb-4ce3-902c-1655953e48d7
+    id: image_scale
+    weight: 1
+    data:
+      width: 60
+      height: 60
+      upscale: false
+  38ef9fb4-2bb4-4726-ba78-e01f407a537c:
+    uuid: 38ef9fb4-2bb4-4726-ba78-e01f407a537c
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
