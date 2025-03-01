@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fbadad5f84e6599f8e43b7072cbab31",
+    "content-hash": "e1240ea11a23476d56e75b550ec85d39",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3038,6 +3038,66 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/tvi",
                 "issues": "http://drupal.org/project/issues/tvi"
+            }
+        },
+        {
+            "name": "drupal/views_arg_entity_field",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_arg_entity_field.git",
+                "reference": "2.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_arg_entity_field-2.0.5.zip",
+                "reference": "2.0.5",
+                "shasum": "7311626e619146868e91826b064900b9c1331e48"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.5",
+                    "datestamp": "1708513889",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Eastwood (drclaw)",
+                    "homepage": "https://www.drupal.org/user/823702",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Nikolay Shapovalov",
+                    "homepage": "https://www.drupal.org/user/1877422",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/3098605/committers",
+                    "role": "contributor"
+                }
+            ],
+            "description": "Views argument_default plugin to pull values of the 'Current' entity's fields",
+            "homepage": "https://www.drupal.org/project/views_arg_entity_field",
+            "keywords": [
+                "Drupal",
+                "Views"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_arg_entity_field",
+                "issues": "https://www.drupal.org/project/issues/views_arg_entity_field"
             }
         },
         {

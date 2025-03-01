@@ -15,6 +15,16 @@ nav h3 {
 	font-size: $h5-font-size;
 }
 
+.block-system-main-block {
+	margin-bottom: 2rem;
+}
+
+#views-bootstrap-media-block-1 {
+	div:first-child {
+		margin-bottom: 0.75rem;
+	}
+}
+
 footer.site-footer {
 	nav {
 		margin-bottom: 2rem;

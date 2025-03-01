@@ -10,6 +10,7 @@ dependencies:
     - paragraphs.paragraphs_type.media
   module:
     - image
+    - imce
     - link
 id: paragraph.media.default
 targetEntityType: paragraph
@@ -23,7 +24,9 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings:
+      imce:
+        enabled: true
   field_media_link:
     type: link_default
     weight: 0
@@ -37,8 +40,13 @@ content:
     weight: 1
     region: content
     settings:
-      size: 60
+      size: 160
       placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

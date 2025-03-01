@@ -1,4 +1,4 @@
-uuid: a1869270-1380-4da7-96aa-00f5959e724d
+uuid: 4aac1b00-3bf5-4720-8a92-de7436e4da6e
 langcode: en
 status: true
 dependencies:
@@ -13,10 +13,10 @@ dependencies:
     - link
     - paragraphs
     - views_bootstrap
-id: duplicate_of_media_block
+id: media
 label: Media
 module: views
-description: ''
+description: 'Media and press about Event.'
 tag: ''
 base_table: paragraphs_item_field_data
 base_field: id
@@ -29,10 +29,10 @@ display:
     display_options:
       title: Media
       fields:
-        field_title:
-          id: field_title
-          table: paragraph__field_title
-          field: field_title
+        field_media_image:
+          id: field_media_image
+          table: paragraph__field_media_image
+          field: field_media_image
           relationship: none
           group_type: group
           admin_label: ''
@@ -78,10 +78,14 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings: {  }
-          group_column: value
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_link: ''
+            image_style: mini
+            image_loading:
+              attribute: lazy
+          group_column: ''
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -158,10 +162,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_media_image:
-          id: field_media_image
-          table: paragraph__field_media_image
-          field: field_media_image
+        field_title:
+          id: field_title
+          table: paragraph__field_title
+          field: field_title
           relationship: none
           group_type: group
           admin_label: ''
@@ -207,14 +211,10 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_link: ''
-            image_style: mini
-            image_loading:
-              attribute: lazy
-          group_column: ''
+          click_sort_column: value
+          type: string
+          settings: {  }
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -225,10 +225,24 @@ display:
           separator: ', '
           field_api_classes: false
       pager:
-        type: some
+        type: mini
         options:
           offset: 0
-          items_per_page: 5
+          pagination_heading_level: h4
+          items_per_page: 10
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
       exposed_form:
         type: basic
         options:
@@ -379,6 +393,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - url.query_args
       tags:
         - 'config:field.storage.paragraph.field_media_image'
         - 'config:field.storage.paragraph.field_media_link'
@@ -387,8 +402,15 @@ display:
     id: block_1
     display_title: Block
     display_plugin: block
-    position: 1
+    position: 2
     display_options:
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 5
+      defaults:
+        pager: false
       display_extenders:
         metatag_display_extender:
           metatags: {  }
@@ -400,6 +422,28 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+      tags:
+        - 'config:field.storage.paragraph.field_media_image'
+        - 'config:field.storage.paragraph.field_media_link'
+        - 'config:field.storage.paragraph.field_title'
+  page_1:
+    id: page_1
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
+      path: media
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
       tags:
         - 'config:field.storage.paragraph.field_media_image'
         - 'config:field.storage.paragraph.field_media_link'
