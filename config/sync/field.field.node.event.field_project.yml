@@ -10,10 +10,10 @@ id: node.event.field_project
 field_name: field_project
 entity_type: node
 bundle: event
-label: Project
+label: Проєкт
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
