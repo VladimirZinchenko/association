@@ -9,5 +9,6 @@ label: 'Front page'
 tags:
   canonical_url: '[site:url]'
   description: 'Quick and efficient communication between an interested party and an expert, appraiser or restorer of works of art'
+  og_description: 'Quick and efficient communication between an interested party and an expert, appraiser or restorer of works of art'
   shortlink: '[site:url]'
   title: '[site:name] | [site:slogan]'
