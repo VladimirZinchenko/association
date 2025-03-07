@@ -225,7 +225,7 @@ display:
       style:
         type: views_bootstrap_grid
         options:
-          row_class: ''
+          row_class: mb-4
           default_row_class: false
           uses_fields: false
           grid_class: mb-5
