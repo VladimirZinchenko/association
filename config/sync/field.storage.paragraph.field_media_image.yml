@@ -16,7 +16,7 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: aba8e36b-0fea-46d4-901a-9d53f422d5a2
+    uuid: 94be9a69-1551-419b-93b6-ff5f9ece2b75
     alt: 'Media about a Event'
     title: ''
     width: 817

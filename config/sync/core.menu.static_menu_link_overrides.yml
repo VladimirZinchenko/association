@@ -8,32 +8,32 @@ definitions:
     expanded: false
     enabled: true
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__sections__2':
-    expanded: true
+    menu_name: section
     parent: ''
     weight: 0
-    menu_name: section
+    expanded: true
     enabled: true
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__sections__3':
-    expanded: true
+    menu_name: section
     parent: ''
     weight: 0
-    menu_name: section
+    expanded: true
     enabled: true
   standard__front_page:
-    weight: -50
     menu_name: main
     parent: ''
+    weight: -50
     expanded: false
     enabled: true
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__2':
+    menu_name: sections
     parent: ''
     weight: 0
     expanded: false
     enabled: true
-    menu_name: sections
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__3':
+    menu_name: sections
     parent: ''
     weight: 0
     expanded: false
     enabled: true
-    menu_name: sections
