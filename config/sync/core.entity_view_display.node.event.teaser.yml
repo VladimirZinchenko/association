@@ -5,13 +5,16 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
+    - field.field.node.event.field_date
     - field.field.node.event.field_image
     - field.field.node.event.field_media
+    - field.field.node.event.field_photo
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
     - image.style.large
     - node.type.event
   module:
+    - datetime
     - image
     - text
     - user
@@ -25,6 +28,14 @@ content:
     label: hidden
     settings:
       trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_date:
+    type: datetime_plain
+    label: hidden
+    settings:
+      timezone_override: Europe/Kyiv
     third_party_settings: {  }
     weight: 1
     region: content
@@ -42,10 +53,11 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
 hidden:
   field_media: true
+  field_photo: true
   field_project: true
   field_tags: true
   langcode: true

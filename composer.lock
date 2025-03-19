@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1240ea11a23476d56e75b550ec85d39",
+    "content-hash": "80ef47c1cfcbd21d46762ad8b52323f1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3042,29 +3042,29 @@
         },
         {
             "name": "drupal/views_arg_entity_field",
-            "version": "2.0.5",
+            "version": "3.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/views_arg_entity_field.git",
-                "reference": "2.0.5"
+                "reference": "3.0.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_arg_entity_field-2.0.5.zip",
-                "reference": "2.0.5",
-                "shasum": "7311626e619146868e91826b064900b9c1331e48"
+                "url": "https://ftp.drupal.org/files/projects/views_arg_entity_field-3.0.0-beta1.zip",
+                "reference": "3.0.0-beta1",
+                "shasum": "80072d050c718e085d64e45cd23f2cfc00c24eb6"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9 || ^10"
+                "drupal/core": "^10.3 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.5",
-                    "datestamp": "1708513889",
+                    "version": "3.0.0-beta1",
+                    "datestamp": "1741849127",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -7987,6 +7987,7 @@
         "drupal/inline_entity_form": 5,
         "drupal/responsive_menu": 15,
         "drupal/tvi": 15,
+        "drupal/views_arg_entity_field": 10,
         "drupal/views_bootstrap": 15,
         "drupal/views_bulk_operations": 10,
         "drupal/xmlsitemap": 10

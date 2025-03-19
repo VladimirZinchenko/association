@@ -1,54 +1,56 @@
-uuid: b44c4ec2-c76d-46c2-bc25-2d4f10e7820d
+uuid: 2ba4b719-6ba2-4f0d-9d70-24438011966b
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.teaser
     - field.field.paragraph.media.field_body
     - field.field.paragraph.media.field_media_image
     - field.field.paragraph.media.field_media_link
     - field.field.paragraph.media.field_title
+    - image.style.mini
     - paragraphs.paragraphs_type.media
   module:
     - image
     - link
-id: paragraph.media.default
+id: paragraph.media.teaser
 targetEntityType: paragraph
 bundle: media
-mode: default
+mode: teaser
 content:
   field_body:
     type: basic_string
-    label: above
+    label: hidden
     settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_media_image:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: 2
     region: content
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: mini
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
   field_media_link:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
       url_plain: false
-      rel: ''
-      target: ''
+      rel: nofollow
+      target: _blank
     third_party_settings: {  }
-    weight: 0
+    weight: 3
     region: content
   field_title:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

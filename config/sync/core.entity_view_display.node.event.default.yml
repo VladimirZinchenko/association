@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_date
     - field.field.node.event.field_image
     - field.field.node.event.field_media
+    - field.field.node.event.field_photo
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
     - node.type.event
   module:
+    - datetime
     - text
     - user
 id: node.event.default
@@ -22,6 +25,22 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date:
+    type: datetime_plain
+    label: inline
+    settings:
+      timezone_override: Europe/Kyiv
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_photo:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 0
     region: content
   field_project:
@@ -30,7 +49,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 1
+    weight: 3
     region: content
   field_tags:
     type: entity_reference_label
@@ -38,7 +57,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 4
     region: content
 hidden:
   field_image: true
