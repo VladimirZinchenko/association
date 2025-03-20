@@ -17,7 +17,7 @@ _core:
 id: media_all
 label: 'Media all'
 module: node
-description: 'Events promoted to the front page.'
+description: 'Media and press about all Events.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -28,7 +28,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Events
+      title: Media
       fields:
         field_date:
           id: field_date
@@ -335,7 +335,20 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: '<h1>Media</h1>'
+            format: full_html
+          tokenize: false
       footer: {  }
       display_extenders: {  }
     cache_metadata:

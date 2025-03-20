@@ -1,7 +1,12 @@
 display:
   default:
     display_options:
-      title: Події
+      title: Медіа
+      header:
+        area:
+          content:
+            value: '<h1>Медіа</h1>'
+            format: full_html
   page_1:
     display_options:
       menu:
