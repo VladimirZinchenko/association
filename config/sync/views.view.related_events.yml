@@ -20,7 +20,7 @@ _core:
 id: related_events
 label: 'Related Events'
 module: node
-description: "Events of the Association's Project."
+description: "Related Events of the Association's Project."
 tag: default
 base_table: node_field_data
 base_field: nid
