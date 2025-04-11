@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
     - field.field.node.event.field_date
+    - field.field.node.event.field_gallery
+    - field.field.node.event.field_gallery_image
     - field.field.node.event.field_image
     - field.field.node.event.field_media
     - field.field.node.event.field_photo
@@ -56,6 +58,8 @@ content:
     weight: 3
     region: content
 hidden:
+  field_gallery: true
+  field_gallery_image: true
   field_media: true
   field_photo: true
   field_project: true

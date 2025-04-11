@@ -1,0 +1,32 @@
+uuid: 833e7f82-584f-4ac1-94f0-03cd811e60ee
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_group
+label: Gallery
+settings:
+  images_loaded: true
+  cell_selector: .gallery-cell
+  initial_index: null
+  accessibility: true
+  set_gallery_size: true
+  resize: true
+  cell_align: left
+  contain: true
+  percent_position: true
+  right_to_left: false
+  draggable: true
+  free_scroll: false
+  lazy_load: 1
+  auto_play: 3000
+  wrap_around: false
+  group_cells: null
+  adaptive_height: false
+  watch_css: false
+  as_nav_for: ''
+  drag_threshold: 3
+  selected_attraction: 0.025
+  friction: 0.28
+  free_scroll_friction: 0.075
+  prev_next_buttons: true
+  page_dots: true

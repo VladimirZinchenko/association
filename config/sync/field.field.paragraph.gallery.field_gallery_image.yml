@@ -1,0 +1,30 @@
+uuid: fa6db3dd-a525-4458-9439-91c0e51b4565
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_gallery_image
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - viewsreference
+id: paragraph.gallery.field_gallery_image
+field_name: field_gallery_image
+entity_type: paragraph
+bundle: gallery
+label: 'Gallery image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    block: block
+  preselect_views:
+    gallery: gallery
+  enabled_settings: {  }
+field_type: viewsreference

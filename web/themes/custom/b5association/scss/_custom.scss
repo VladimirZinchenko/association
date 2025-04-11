@@ -326,3 +326,13 @@ ul.menu.mm-listview {
 		margin-right: auto;
 	}
 }
+
+.gallery_group .gallery-cell {
+	@include media-breakpoint-up(md) {
+		margin-right: 1.5rem;
+	}
+
+}
+.flickity-viewport {
+    margin-bottom: 2rem;
+}
