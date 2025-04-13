@@ -1,4 +1,3 @@
 display:
   default:
-    display_options:
-      title: 'Події проєкту'
+    display_options: {  }

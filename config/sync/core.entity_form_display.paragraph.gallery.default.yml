@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.gallery.field_gallery_image
+    - field.field.paragraph.gallery.field_gallery_images
     - paragraphs.paragraphs_type.gallery
   module:
     - viewsreference
@@ -12,7 +12,7 @@ targetEntityType: paragraph
 bundle: gallery
 mode: default
 content:
-  field_gallery_image:
+  field_gallery_images:
     type: viewsreference_autocomplete
     weight: 0
     region: content

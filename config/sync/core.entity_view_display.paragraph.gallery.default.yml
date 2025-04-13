@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.gallery.field_gallery_image
+    - field.field.paragraph.gallery.field_gallery_images
     - paragraphs.paragraphs_type.gallery
   module:
     - viewsreference
@@ -12,15 +12,12 @@ targetEntityType: paragraph
 bundle: gallery
 mode: default
 content:
-  field_gallery_image:
+  field_gallery_images:
     type: viewsreference_formatter
     label: hidden
     settings:
       plugin_types:
-        block: block
-        default: '0'
-        page: '0'
-        feed: '0'
+        - block
     third_party_settings: {  }
     weight: 0
     region: content

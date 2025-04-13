@@ -1,4 +1,4 @@
-uuid: e9f4a566-4daa-4193-93b4-bf621d3c7ef9
+uuid: 049de0a9-064d-4536-ad33-a9816ef26eb1
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - paragraphs
     - views
     - viewsreference
-id: paragraph.field_gallery_image
-field_name: field_gallery_image
+id: paragraph.field_gallery_images
+field_name: field_gallery_images
 entity_type: paragraph
 type: viewsreference
 settings:

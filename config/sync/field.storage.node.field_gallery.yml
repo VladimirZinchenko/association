@@ -1,27 +1,18 @@
-uuid: d21c014f-e2f8-4039-8e88-f0886919e622
+uuid: 155a0cf2-9871-481d-b57b-88d2904450eb
 langcode: en
 status: true
 dependencies:
   module:
-    - file
-    - image
+    - entity_reference_revisions
     - node
+    - paragraphs
 id: node.field_gallery
 field_name: field_gallery
 entity_type: node
-type: image
+type: entity_reference_revisions
 settings:
-  target_type: file
-  display_field: false
-  display_default: true
-  uri_scheme: public
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-module: image
+  target_type: paragraph
+module: entity_reference_revisions
 locked: false
 cardinality: -1
 translatable: true
