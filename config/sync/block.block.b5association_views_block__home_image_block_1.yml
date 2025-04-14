@@ -1,22 +1,22 @@
-uuid: c080409d-5ab6-4f1a-b511-8c4b188b0633
-langcode: uk
+uuid: e982bf2d-4070-4266-a3b3-e96232eb1e00
+langcode: en
 status: true
 dependencies:
   config:
-    - views.view.media_all
+    - views.view.home_image
   module:
     - system
     - views
   theme:
     - b5association
-id: b5association_views_block__media_all_block_1
+id: b5association_views_block__home_image_block_1
 theme: b5association
-region: content
-weight: -1
+region: header
+weight: 0
 provider: null
-plugin: 'views_block:media_all-block_1'
+plugin: 'views_block:home_image-block_1'
 settings:
-  id: 'views_block:media_all-block_1'
+  id: 'views_block:home_image-block_1'
   label: ''
   label_display: '0'
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /media
+    pages: '<front>'

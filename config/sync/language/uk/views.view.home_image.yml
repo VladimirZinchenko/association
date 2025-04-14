@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      title: 'Події проєкту'
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"parallax-caption\">\r\n<div class=\"container\">\r\n<div class=\"text-center parallax-caption-content\">\r\n<h1 class=\"text-uppercase display-3\">{{ title }}</h1>\r\n<p class=\"display-6\">актуально</p>\r\n<p class=\"display-6\"><a class=\"btn btn-lg btn-outline-light\" role=\"button\" href=\"{{ view_node }}\" class=\"text-bg-dark\">Вперед</a></p>\r\n</div>\r\n</div>\r\n</div>"

@@ -1,22 +1,22 @@
-uuid: c080409d-5ab6-4f1a-b511-8c4b188b0633
-langcode: uk
+uuid: af255918-b289-41d1-8403-ba0f0fc8b32c
+langcode: en
 status: true
 dependencies:
   config:
-    - views.view.media_all
+    - views.view.events_all
   module:
     - system
     - views
   theme:
     - b5association
-id: b5association_views_block__media_all_block_1
+id: b5association_views_block__events_all_block_1
 theme: b5association
 region: content
-weight: -1
+weight: -3
 provider: null
-plugin: 'views_block:media_all-block_1'
+plugin: 'views_block:events_all-block_1'
 settings:
-  id: 'views_block:media_all-block_1'
+  id: 'views_block:events_all-block_1'
   label: ''
   label_display: '0'
   provider: views
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /media
+    pages: /events

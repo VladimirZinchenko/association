@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:sections'
 settings:
   id: 'system_menu_block:sections'
-  label: Розділи
+  label: Sections
   label_display: visible
   provider: system
   level: 1

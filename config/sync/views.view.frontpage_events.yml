@@ -32,7 +32,7 @@ display:
       pager:
         type: some
         options:
-          offset: 0
+          offset: 1
           items_per_page: 6
       exposed_form:
         type: basic
