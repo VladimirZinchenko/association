@@ -15,7 +15,7 @@ bundle: event
 label: Media
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -25,6 +25,9 @@ settings:
       media: media
     negate: 0
     target_bundles_drag_drop:
+      gallery:
+        weight: 3
+        enabled: false
       media:
         weight: 2
         enabled: true
