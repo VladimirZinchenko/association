@@ -237,7 +237,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"parallax-caption\">\r\n<div class=\"container\">\r\n<div class=\"text-center parallax-caption-content\">\r\n<h1 class=\"text-uppercase display-3\">{{ title }}</h1>\r\n<p class=\"display-6\">current event</p>\r\n<p class=\"display-6\"><a class=\"btn btn-lg btn-outline-light\" role=\"button\" href=\"{{ view_node }}\" class=\"text-bg-dark\">Go</a></p>\r\n</div>\r\n</div>\r\n</div>"
+            text: "<div class=\"parallax-caption\">\r\n<div class=\"container\">\r\n<div class=\"text-center parallax-caption-content\">\r\n<h1 class=\"text-uppercase display-3\">{{ title }}</h1>\r\n<p class=\"display-6\">current event</p>\r\n<p class=\"display-6\"><a class=\"btn btn-lg btn-outline-light\" role=\"button\" href=\"{{ view_node }}\" class=\"text-bg-dark\">Go <span class=\"visually-hidden\">to {{ title }}\"</a></p>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
