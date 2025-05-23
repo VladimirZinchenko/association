@@ -40,13 +40,14 @@
         "drupal/semanticviews": "^3.0",
         "drupal/taxonomy_menu": "^3.5",
         "drupal/tvi": "^2.0@alpha",
+        "drupal/upgrade_status": "^4.3",
         "drupal/views_arg_entity_field": "^3.0@beta",
         "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/views_bulk_edit": "^3.0",
         "drupal/views_bulk_operations": "^4.3@beta",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/xmlsitemap": "^2.0@beta",
-        "drush/drush": "^12.5"
+        "drush/drush": "^13.6"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -56,11 +57,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
+            "php-http/discovery": true,
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "tbachert/spi": true
         },
         "sort-packages": true
     },
@@ -120,5 +122,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "10.4.7"
     }
 }
