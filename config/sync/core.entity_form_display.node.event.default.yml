@@ -17,6 +17,7 @@ dependencies:
   module:
     - datetime
     - image
+    - imagefield_tokens
     - imce
     - inline_entity_form
     - path
@@ -77,12 +78,12 @@ content:
       imce:
         enabled: true
   field_image_gallery:
-    type: image_image
+    type: imagefield_tokens
     weight: 7
     region: content
     settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      progress_indicator: throbber
     third_party_settings:
       imce:
         enabled: true

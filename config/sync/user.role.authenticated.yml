@@ -9,6 +9,7 @@ dependencies:
     - contact
     - file
     - filter
+    - media
     - system
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
@@ -24,3 +25,4 @@ permissions:
   - 'post comments'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view media'

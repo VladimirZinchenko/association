@@ -38,7 +38,7 @@ settings:
   title_field_required: false
   default_image:
     uuid: ''
-    alt: '[node:title]'
+    alt: '[node:field_project:entity]: [node:title] #[random:number]'
     title: ''
     width: null
     height: null

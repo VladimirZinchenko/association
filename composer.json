@@ -28,6 +28,7 @@
         "drupal/fixteaserlinks": "^1.2",
         "drupal/flickity": "^3.0",
         "drupal/glightbox": "^1.0",
+        "drupal/imagefield_tokens": "^3.2",
         "drupal/imce": "^3.1",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/menu_link_attributes": "^1.3",
