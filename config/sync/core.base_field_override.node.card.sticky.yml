@@ -1,0 +1,22 @@
+uuid: e350e579-e580-4a70-9e74-4f77c4e8e549
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.card
+id: node.card.sticky
+field_name: sticky
+entity_type: node
+bundle: card
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

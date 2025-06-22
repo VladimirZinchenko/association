@@ -1,0 +1,18 @@
+uuid: 7e533417-895b-43e7-a55f-6d958ff87ddf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.card
+id: node.card.created
+field_name: created
+entity_type: node
+bundle: card
+label: 'Authored on'
+description: 'The date and time that the content was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

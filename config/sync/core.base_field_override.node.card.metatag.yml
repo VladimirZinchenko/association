@@ -1,0 +1,20 @@
+uuid: bed27411-2123-4595-8314-f410b5178c73
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.card
+  module:
+    - metatag
+id: node.card.metatag
+field_name: metatag
+entity_type: node
+bundle: card
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

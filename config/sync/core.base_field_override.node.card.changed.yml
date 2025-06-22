@@ -1,0 +1,18 @@
+uuid: 7180e507-c1c6-4e9a-8d3b-d01128d106ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.card
+id: node.card.changed
+field_name: changed
+entity_type: node
+bundle: card
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,29 +1,23 @@
-uuid: cd91a1ae-175a-4ee1-b73e-59639fa9791b
+uuid: 9a57b61e-0f76-41e5-9a5e-67ec9a81953e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media_image
     - media.type.image
   module:
     - image
-  enforced:
-    module:
-      - media
-_core:
-  default_config_hash: P7CkVOgjDXiN26Fm2hniNei-XPK3iuZTlcBGqreTbJ0
-id: media.image.field_media_image
-field_name: field_media_image
+id: media.image.thumbnail
+field_name: thumbnail
 entity_type: media
 bundle: image
-label: Image
-description: ''
-required: true
+label: Thumbnail
+description: 'The thumbnail of the media item.'
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:file'
+  handler: default
   handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg webp'

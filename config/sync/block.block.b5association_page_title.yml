@@ -26,5 +26,6 @@ visibility:
     context_mapping:
       node: '@node.node_route_context:node'
     bundles:
+      card: card
       document: document
       page: page
