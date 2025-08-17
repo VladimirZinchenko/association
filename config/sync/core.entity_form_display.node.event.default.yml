@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.event.field_photo
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
+    - field.field.node.event.field_video
     - image.style.thumbnail
     - node.type.event
   module:
@@ -22,6 +23,7 @@ dependencies:
     - inline_entity_form
     - path
     - text
+    - video
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -39,7 +41,7 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 12
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -125,7 +127,7 @@ content:
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
-    weight: 9
+    weight: 10
     region: content
     settings:
       match_operator: CONTAINS
@@ -133,36 +135,47 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_video:
+    type: video_upload
+    weight: 9
+    region: content
+    settings:
+      progress_indicator: throbber
+      file_directory: video-thumbnails
+      file_extensions: 'mp4 ogv webm'
+      max_filesize: ''
+      uri_scheme: public
+    third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 10
+    weight: 11
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 15
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 13
+    weight: 14
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 17
+    weight: 18
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 14
+    weight: 15
     region: content
     settings:
       display_label: true
@@ -176,13 +189,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 16
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 11
+    weight: 12
     region: content
     settings:
       match_operator: CONTAINS

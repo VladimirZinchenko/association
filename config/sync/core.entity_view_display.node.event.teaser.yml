@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.event.field_photo
     - field.field.node.event.field_project
     - field.field.node.event.field_tags
+    - field.field.node.event.field_video
     - image.style.large
     - node.type.event
   module:
@@ -64,4 +65,5 @@ hidden:
   field_photo: true
   field_project: true
   field_tags: true
+  field_video: true
   langcode: true

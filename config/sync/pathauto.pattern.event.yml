@@ -9,10 +9,10 @@ label: Event
 type: 'canonical_entities:node'
 pattern: 'projects/[node:field_project]/[node:title]'
 selection_criteria:
-  94b4c081-9313-4e88-949f-496d5264eb6d:
+  18ea5b97-97fc-4649-b567-dc70b4c501cf:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 94b4c081-9313-4e88-949f-496d5264eb6d
+    uuid: 18ea5b97-97fc-4649-b567-dc70b4c501cf
     context_mapping:
       node: node
     bundles:
