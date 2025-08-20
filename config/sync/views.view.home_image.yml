@@ -17,7 +17,7 @@ _core:
 id: home_image
 label: 'Home Image'
 module: node
-description: 'Display Node Image on Node Page.'
+description: 'Display current Event Image on Home Page.'
 tag: default
 base_table: node_field_data
 base_field: nid
