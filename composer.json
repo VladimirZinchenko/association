@@ -47,7 +47,7 @@
         "drupal/views_arg_entity_field": "^3.0@beta",
         "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/views_bulk_edit": "^3.0",
-        "drupal/views_bulk_operations": "^4.3@beta",
+        "drupal/views_bulk_operations": "^4.4",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/xmlsitemap": "^2.0@beta",
         "drush/drush": "^13.6"
