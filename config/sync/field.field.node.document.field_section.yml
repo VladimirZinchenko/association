@@ -10,7 +10,7 @@ id: node.document.field_section
 field_name: field_section
 entity_type: node
 bundle: document
-label: Section
+label: Розділ
 description: ''
 required: false
 translatable: false

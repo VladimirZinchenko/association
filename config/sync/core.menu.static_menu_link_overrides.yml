@@ -26,14 +26,14 @@ definitions:
     expanded: false
     enabled: true
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__2':
-    menu_name: sections
     parent: ''
     weight: 0
     expanded: false
-    enabled: true
+    enabled: false
+    menu_name: sections
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__section__3':
+    enabled: false
     menu_name: sections
     parent: ''
-    weight: 0
     expanded: false
-    enabled: true
+    weight: 0
