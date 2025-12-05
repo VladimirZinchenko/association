@@ -22,9 +22,9 @@
         "drupal/bg_image_formatter": "^1.17",
         "drupal/bootstrap5": "^4.0",
         "drupal/captcha": "^2.0",
-        "drupal/core-composer-scaffold": "^10.2",
-        "drupal/core-project-message": "^10.2",
-        "drupal/core-recommended": "^10.2",
+        "drupal/core-composer-scaffold": "^10.5",
+        "drupal/core-project-message": "^10.5",
+        "drupal/core-recommended": "^10.5",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/fixteaserlinks": "^1.2",
         "drupal/flickity": "^3.0",
@@ -126,8 +126,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drupal/core-dev": "10.4.7"
     }
 }
