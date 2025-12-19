@@ -37,6 +37,7 @@
         "drupal/paragraphs": "^1.18",
         "drupal/pathauto": "^1.12",
         "drupal/recaptcha": "^3.4",
+        "drupal/redirect": "^1.12",
         "drupal/responsive_menu": "^5.0@alpha",
         "drupal/scss_compiler": "^1.2",
         "drupal/semanticviews": "^3.0",
