@@ -39,7 +39,7 @@
         "drupal/recaptcha": "^3.4",
         "drupal/redirect": "^1.12",
         "drupal/responsive_menu": "^5.0@alpha",
-        "drupal/scss_compiler": "^1.2",
+        "drupal/scss_compiler": "^2.0@alpha",
         "drupal/semanticviews": "^3.0",
         "drupal/taxonomy_menu": "^3.5",
         "drupal/tvi": "^2.0@alpha",
@@ -51,7 +51,8 @@
         "drupal/views_bulk_operations": "^4.4",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/xmlsitemap": "^2.0@beta",
-        "drush/drush": "^13.7"
+        "drush/drush": "^13.7",
+        "scssphp/scssphp": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
