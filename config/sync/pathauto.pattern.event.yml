@@ -2,17 +2,18 @@ uuid: 9f0ad38f-0f4d-4cfa-a891-55264f76332c
 langcode: uk
 status: true
 dependencies:
+  config:
+    - node.type.event
   module:
     - node
 id: event
 label: Event
 type: 'canonical_entities:node'
-pattern: 'projects/[node:field_project]/[node:title]'
+pattern: '/projects/[node:field_project]/[node:title]'
 selection_criteria:
   18ea5b97-97fc-4649-b567-dc70b4c501cf:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 18ea5b97-97fc-4649-b567-dc70b4c501cf
     context_mapping:
       node: node
     bundles:

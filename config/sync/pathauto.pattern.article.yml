@@ -2,17 +2,18 @@ uuid: 0f92b9e1-24d7-4963-a07a-1e47ae52d186
 langcode: uk
 status: true
 dependencies:
+  config:
+    - node.type.article
   module:
     - node
 id: article
 label: Article
 type: 'canonical_entities:node'
-pattern: 'news/[node:title]'
+pattern: '/news/[node:title]'
 selection_criteria:
   95ecc172-9243-4da9-949e-3e64584647c5:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 95ecc172-9243-4da9-949e-3e64584647c5
     context_mapping:
       node: node
     bundles:

@@ -2,17 +2,18 @@ uuid: e0ba3ce3-ea42-49b1-981f-fae3e1fe125d
 langcode: en
 status: true
 dependencies:
+  config:
+    - taxonomy.vocabulary.tags
   module:
     - taxonomy
 id: tags
 label: Tags
 type: 'canonical_entities:taxonomy_term'
-pattern: '[term:vocabulary]/[term:name]'
+pattern: '/[term:vocabulary]/[term:name]'
 selection_criteria:
   deea7bc3-3f71-4d9f-b8cc-57cf89665d17:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: deea7bc3-3f71-4d9f-b8cc-57cf89665d17
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:

@@ -2,17 +2,18 @@ uuid: 4e4a8413-5861-4176-b942-beb16fb6d663
 langcode: uk
 status: true
 dependencies:
+  config:
+    - node.type.document
   module:
     - node
 id: document
 label: Document
 type: 'canonical_entities:node'
-pattern: 'about/[node:field_section]/[node:title]'
+pattern: '/about/[node:field_section]/[node:title]'
 selection_criteria:
   5f3c796b-f24f-49c8-b7d6-ca52ccf42bea:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 5f3c796b-f24f-49c8-b7d6-ca52ccf42bea
     context_mapping:
       node: node
     bundles:
