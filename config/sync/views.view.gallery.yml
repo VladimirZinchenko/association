@@ -297,3 +297,47 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_image_gallery'
+  block_2:
+    id: block_2
+    display_title: 'Block 2'
+    display_plugin: block
+    position: 2
+    display_options:
+      style:
+        type: views_bootstrap_grid
+        options:
+          grouping: {  }
+          row_class: mb-4
+          default_row_class: false
+          grid_class: ''
+          col_xs: col-6
+          col_sm: none
+          col_md: col-md-2
+          col_lg: none
+          col_xl: none
+          col_xxl: none
+      row:
+        type: fields
+        options:
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: false
+      defaults:
+        title: true
+        style: false
+        row: false
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_image_gallery'

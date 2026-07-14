@@ -426,3 +426,27 @@ display:
         - 'config:field.storage.paragraph.field_media_image'
         - 'config:field.storage.paragraph.field_media_link'
         - 'config:field.storage.paragraph.field_title'
+  block_2:
+    id: block_2
+    display_title: 'Block 2'
+    display_plugin: block
+    position: 2
+    display_options:
+      defaults:
+        title: true
+      display_extenders:
+        metatag_display_extender:
+          metatags: {  }
+          tokenize: false
+      block_hide_empty: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+      tags:
+        - 'config:field.storage.paragraph.field_media_image'
+        - 'config:field.storage.paragraph.field_media_link'
+        - 'config:field.storage.paragraph.field_title'

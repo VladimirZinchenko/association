@@ -1,22 +1,22 @@
-uuid: a8b6e16c-2047-4ec0-ba50-55c006395cf4
+uuid: 7641ddd6-1ccd-43f4-b216-7602790ebbe0
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.events
+    - views.view.media
   module:
     - node
     - views
   theme:
     - b5association
-id: b5association_views_block__events_block_1
+id: b5association_views_block__media_block_2
 theme: b5association
 region: content
-weight: -3
+weight: -4
 provider: null
-plugin: 'views_block:events-block_1'
+plugin: 'views_block:media-block_2'
 settings:
-  id: 'views_block:events-block_1'
+  id: 'views_block:media-block_2'
   label: ''
   label_display: visible
   provider: views

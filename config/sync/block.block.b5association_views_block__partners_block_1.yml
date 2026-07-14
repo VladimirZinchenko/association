@@ -12,7 +12,7 @@ dependencies:
 id: b5association_views_block__partners_block_1
 theme: b5association
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:partners-block_1'
 settings:
