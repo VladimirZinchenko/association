@@ -16,7 +16,7 @@ display:
         filesize:
           label: Розмір
         status:
-          label: Стан
+          label: Статус
           settings:
             format_custom_false: Тимчасово
             format_custom_true: Постійно
@@ -59,7 +59,7 @@ display:
             label: 'Тип MIME'
         status:
           expose:
-            label: Стан
+            label: Статус
   page_1:
     display_title: 'Огляд файлів'
     display_options:

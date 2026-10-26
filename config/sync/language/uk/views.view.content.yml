@@ -14,7 +14,7 @@ display:
         name:
           label: Автор
         status:
-          label: Стан
+          label: Статус
           settings:
             format_custom_false: Неопубліковано
             format_custom_true: Опубліковано
@@ -51,7 +51,7 @@ display:
             label: 'Тип матеріалів'
         status:
           expose:
-            label: Стан
+            label: Статус
           group_info:
             label: 'Стан публікації'
             group_items:
